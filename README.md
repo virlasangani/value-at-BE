@@ -1,0 +1,51 @@
+# Backend - Value At Void
+
+This is the backend for a job management system, built using Node.js and Express.js. It uses MongoDB as the database and Mongoose for schema modeling.
+
+---
+
+## 🛠️ Tech Stack
+
+- **Node.js** – JavaScript runtime
+- **Express.js** – Web framework for Node.js
+- **MongoDB** – NoSQL database
+- **Mongoose** – ODM (Object Data Modeling) for MongoDB
+
+---
+
+## 📦 Database Schema
+
+A single collection named `jobs` is maintained to handle job-related data. It includes:
+
+- **title**
+- **description**
+- **profile**
+- **experience**
+- **employmentType**
+- **salary**
+- **stats** - contained applied, clicked, and underProcess count
+- **postedAt**
+- **isHired**
+
+---
+
+## 🚀 Getting Started
+
+1. **Clone the repository**
+2. **Install dependencies**
+
+## To connect Database 
+
+create a **.env** file inside the root folder and add below variables.
+
+- PORT=5000
+- MONGO_URI=mongodb://localhost:27017/assignement-backend-db
+
+## Starting Guide
+
+```bash
+npm install
+npm run dev
+
+
+**Note**: Not deployed on Varcel due to the MongoDB DB Atlas server not being available for my account.
