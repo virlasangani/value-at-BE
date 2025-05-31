@@ -29,10 +29,7 @@ A single collection named `jobs` is maintained to handle job-related data. It in
 
 ---
 
-## 🚀 Getting Started
-
-1. **Clone the repository**
-2. **Install dependencies**
+### 🚀 Getting Started
 
 ## To connect Database 
 
@@ -43,9 +40,17 @@ create a **.env** file inside the root folder and add below variables.
 
 ## Starting Guide
 
-```bash
-npm install
-npm run dev
+1. Clone the repository:
+   ```bash
+   git clone <repository-url>
+   cd assignment-frontend
 
+2. Install the dependencies:
+   ```bash
+   npm install
+
+4. Run the development server:
+   ```bash
+   npm run dev
 
 **Note**: Not deployed on Varcel due to the MongoDB DB Atlas server not being available for my account.
