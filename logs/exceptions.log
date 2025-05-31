@@ -1,0 +1,3126 @@
+{
+  error: Error: Cannot find module 'express-validator'
+  Require stack:
+  - C:\Viral\Value At Void\assignment - backend\controllers\JobController.js
+  - C:\Viral\Value At Void\assignment - backend\routes\JobRoutes.js
+  - C:\Viral\Value At Void\assignment - backend\server.js
+      at Module._resolveFilename (node:internal/modules/cjs/loader:1077:15)
+      at Module._load (node:internal/modules/cjs/loader:922:27)
+      at Module.require (node:internal/modules/cjs/loader:1143:19)
+      at require (node:internal/modules/cjs/helpers:119:18)
+      at Object.<anonymous> (C:\Viral\Value At Void\assignment - backend\controllers\JobController.js:2:30)
+      at Module._compile (node:internal/modules/cjs/loader:1256:14)
+      at Module._extensions..js (node:internal/modules/cjs/loader:1310:10)
+      at Module.load (node:internal/modules/cjs/loader:1119:32)
+      at Module._load (node:internal/modules/cjs/loader:960:12)
+      at Module.require (node:internal/modules/cjs/loader:1143:19) {
+    code: 'MODULE_NOT_FOUND',
+    requireStack: [
+      'C:\\Viral\\Value At Void\\assignment - backend\\controllers\\JobController.js',
+      'C:\\Viral\\Value At Void\\assignment - backend\\routes\\JobRoutes.js',
+      'C:\\Viral\\Value At Void\\assignment - backend\\server.js'
+    ]
+  },
+  level: 'error',
+  message: "uncaughtException: Cannot find module 'express-validator'\n" +
+    'Require stack:\n' +
+    '- C:\\Viral\\Value At Void\\assignment - backend\\controllers\\JobController.js\n' +
+    '- C:\\Viral\\Value At Void\\assignment - backend\\routes\\JobRoutes.js\n' +
+    '- C:\\Viral\\Value At Void\\assignment - backend\\server.js\n' +
+    "Error: Cannot find module 'express-validator'\n" +
+    'Require stack:\n' +
+    '- C:\\Viral\\Value At Void\\assignment - backend\\controllers\\JobController.js\n' +
+    '- C:\\Viral\\Value At Void\\assignment - backend\\routes\\JobRoutes.js\n' +
+    '- C:\\Viral\\Value At Void\\assignment - backend\\server.js\n' +
+    '    at Module._resolveFilename (node:internal/modules/cjs/loader:1077:15)\n' +
+    '    at Module._load (node:internal/modules/cjs/loader:922:27)\n' +
+    '    at Module.require (node:internal/modules/cjs/loader:1143:19)\n' +
+    '    at require (node:internal/modules/cjs/helpers:119:18)\n' +
+    '    at Object.<anonymous> (C:\\Viral\\Value At Void\\assignment - backend\\controllers\\JobController.js:2:30)\n' +
+    '    at Module._compile (node:internal/modules/cjs/loader:1256:14)\n' +
+    '    at Module._extensions..js (node:internal/modules/cjs/loader:1310:10)\n' +
+    '    at Module.load (node:internal/modules/cjs/loader:1119:32)\n' +
+    '    at Module._load (node:internal/modules/cjs/loader:960:12)\n' +
+    '    at Module.require (node:internal/modules/cjs/loader:1143:19)',
+  stack: "Error: Cannot find module 'express-validator'\n" +
+    'Require stack:\n' +
+    '- C:\\Viral\\Value At Void\\assignment - backend\\controllers\\JobController.js\n' +
+    '- C:\\Viral\\Value At Void\\assignment - backend\\routes\\JobRoutes.js\n' +
+    '- C:\\Viral\\Value At Void\\assignment - backend\\server.js\n' +
+    '    at Module._resolveFilename (node:internal/modules/cjs/loader:1077:15)\n' +
+    '    at Module._load (node:internal/modules/cjs/loader:922:27)\n' +
+    '    at Module.require (node:internal/modules/cjs/loader:1143:19)\n' +
+    '    at require (node:internal/modules/cjs/helpers:119:18)\n' +
+    '    at Object.<anonymous> (C:\\Viral\\Value At Void\\assignment - backend\\controllers\\JobController.js:2:30)\n' +
+    '    at Module._compile (node:internal/modules/cjs/loader:1256:14)\n' +
+    '    at Module._extensions..js (node:internal/modules/cjs/loader:1310:10)\n' +
+    '    at Module.load (node:internal/modules/cjs/loader:1119:32)\n' +
+    '    at Module._load (node:internal/modules/cjs/loader:960:12)\n' +
+    '    at Module.require (node:internal/modules/cjs/loader:1143:19)',
+  exception: true,
+  date: 'Sat May 31 2025 15:19:31 GMT+0530 (India Standard Time)',
+  process: {
+    pid: 71580,
+    uid: null,
+    gid: null,
+    cwd: 'C:\\Viral\\Value At Void\\assignment - backend',
+    execPath: 'C:\\Program Files\\nodejs\\node.exe',
+    version: 'v18.18.0',
+    argv: [
+      'C:\\Program Files\\nodejs\\node.exe',
+      'C:\\Viral\\Value At Void\\assignment - backend\\server.js'
+    ],
+    memoryUsage: {
+      rss: 78667776,
+      heapTotal: 37535744,
+      heapUsed: 27427640,
+      external: 19948990,
+      arrayBuffers: 19009238
+    }
+  },
+  os: { loadavg: [ 0, 0, 0 ], uptime: 8977465.656 },
+  trace: [
+    {
+      column: 15,
+      file: 'node:internal/modules/cjs/loader',
+      function: 'Module._resolveFilename',
+      line: 1077,
+      method: '_resolveFilename',
+      native: false
+    },
+    {
+      column: 27,
+      file: 'node:internal/modules/cjs/loader',
+      function: 'Module._load',
+      line: 922,
+      method: '_load',
+      native: false
+    },
+    {
+      column: 19,
+      file: 'node:internal/modules/cjs/loader',
+      function: 'Module.require',
+      line: 1143,
+      method: 'require',
+      native: false
+    },
+    {
+      column: 18,
+      file: 'node:internal/modules/cjs/helpers',
+      function: 'require',
+      line: 119,
+      method: null,
+      native: false
+    },
+    {
+      column: 30,
+      file: 'C:\\Viral\\Value At Void\\assignment - backend\\controllers\\JobController.js',
+      function: null,
+      line: 2,
+      method: null,
+      native: false
+    },
+    {
+      column: 14,
+      file: 'node:internal/modules/cjs/loader',
+      function: 'Module._compile',
+      line: 1256,
+      method: '_compile',
+      native: false
+    },
+    {
+      column: 10,
+      file: 'node:internal/modules/cjs/loader',
+      function: 'Module._extensions..js',
+      line: 1310,
+      method: '.js',
+      native: false
+    },
+    {
+      column: 32,
+      file: 'node:internal/modules/cjs/loader',
+      function: 'Module.load',
+      line: 1119,
+      method: 'load',
+      native: false
+    },
+    {
+      column: 12,
+      file: 'node:internal/modules/cjs/loader',
+      function: 'Module._load',
+      line: 960,
+      method: '_load',
+      native: false
+    },
+    {
+      column: 19,
+      file: 'node:internal/modules/cjs/loader',
+      function: 'Module.require',
+      line: 1143,
+      method: 'require',
+      native: false
+    }
+  ],
+  label: 'API Logs',
+  timestamp: 'May-31-2025 15:19:31'
+}
+{
+  error: ReferenceError: cors is not defined
+      at Object.<anonymous> (C:\Viral\Value At Void\assignment - backend\server.js:30:5)
+      at Module._compile (node:internal/modules/cjs/loader:1256:14)
+      at Module._extensions..js (node:internal/modules/cjs/loader:1310:10)
+      at Module.load (node:internal/modules/cjs/loader:1119:32)
+      at Module._load (node:internal/modules/cjs/loader:960:12)
+      at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:86:12)
+      at node:internal/main/run_main_module:23:47,
+  level: 'error',
+  message: 'uncaughtException: cors is not defined\n' +
+    'ReferenceError: cors is not defined\n' +
+    '    at Object.<anonymous> (C:\\Viral\\Value At Void\\assignment - backend\\server.js:30:5)\n' +
+    '    at Module._compile (node:internal/modules/cjs/loader:1256:14)\n' +
+    '    at Module._extensions..js (node:internal/modules/cjs/loader:1310:10)\n' +
+    '    at Module.load (node:internal/modules/cjs/loader:1119:32)\n' +
+    '    at Module._load (node:internal/modules/cjs/loader:960:12)\n' +
+    '    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:86:12)\n' +
+    '    at node:internal/main/run_main_module:23:47',
+  stack: 'ReferenceError: cors is not defined\n' +
+    '    at Object.<anonymous> (C:\\Viral\\Value At Void\\assignment - backend\\server.js:30:5)\n' +
+    '    at Module._compile (node:internal/modules/cjs/loader:1256:14)\n' +
+    '    at Module._extensions..js (node:internal/modules/cjs/loader:1310:10)\n' +
+    '    at Module.load (node:internal/modules/cjs/loader:1119:32)\n' +
+    '    at Module._load (node:internal/modules/cjs/loader:960:12)\n' +
+    '    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:86:12)\n' +
+    '    at node:internal/main/run_main_module:23:47',
+  exception: true,
+  date: 'Sat May 31 2025 15:28:41 GMT+0530 (India Standard Time)',
+  process: {
+    pid: 31900,
+    uid: null,
+    gid: null,
+    cwd: 'C:\\Viral\\Value At Void\\assignment - backend',
+    execPath: 'C:\\Program Files\\nodejs\\node.exe',
+    version: 'v18.18.0',
+    argv: [
+      'C:\\Program Files\\nodejs\\node.exe',
+      'C:\\Viral\\Value At Void\\assignment - backend\\server.js'
+    ],
+    memoryUsage: {
+      rss: 82329600,
+      heapTotal: 40706048,
+      heapUsed: 31418784,
+      external: 19650137,
+      arrayBuffers: 18710385
+    }
+  },
+  os: { loadavg: [ 0, 0, 0 ], uptime: 8978016.453 },
+  trace: [
+    {
+      column: 5,
+      file: 'C:\\Viral\\Value At Void\\assignment - backend\\server.js',
+      function: null,
+      line: 30,
+      method: null,
+      native: false
+    },
+    {
+      column: 14,
+      file: 'node:internal/modules/cjs/loader',
+      function: 'Module._compile',
+      line: 1256,
+      method: '_compile',
+      native: false
+    },
+    {
+      column: 10,
+      file: 'node:internal/modules/cjs/loader',
+      function: 'Module._extensions..js',
+      line: 1310,
+      method: '.js',
+      native: false
+    },
+    {
+      column: 32,
+      file: 'node:internal/modules/cjs/loader',
+      function: 'Module.load',
+      line: 1119,
+      method: 'load',
+      native: false
+    },
+    {
+      column: 12,
+      file: 'node:internal/modules/cjs/loader',
+      function: 'Module._load',
+      line: 960,
+      method: '_load',
+      native: false
+    },
+    {
+      column: 12,
+      file: 'node:internal/modules/run_main',
+      function: 'Function.executeUserEntryPoint [as runMain]',
+      line: 86,
+      method: 'executeUserEntryPoint [as runMain]',
+      native: false
+    },
+    {
+      column: 47,
+      file: 'node:internal/main/run_main_module',
+      function: null,
+      line: 23,
+      method: null,
+      native: false
+    }
+  ],
+  label: 'API Logs',
+  timestamp: 'May-31-2025 15:28:41'
+}
+{
+  error: ReferenceError: cors is not defined
+      at Object.<anonymous> (C:\Viral\Value At Void\assignment - backend\server.js:30:5)
+      at Module._compile (node:internal/modules/cjs/loader:1256:14)
+      at Module._extensions..js (node:internal/modules/cjs/loader:1310:10)
+      at Module.load (node:internal/modules/cjs/loader:1119:32)
+      at Module._load (node:internal/modules/cjs/loader:960:12)
+      at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:86:12)
+      at node:internal/main/run_main_module:23:47,
+  level: 'error',
+  message: 'uncaughtException: cors is not defined\n' +
+    'ReferenceError: cors is not defined\n' +
+    '    at Object.<anonymous> (C:\\Viral\\Value At Void\\assignment - backend\\server.js:30:5)\n' +
+    '    at Module._compile (node:internal/modules/cjs/loader:1256:14)\n' +
+    '    at Module._extensions..js (node:internal/modules/cjs/loader:1310:10)\n' +
+    '    at Module.load (node:internal/modules/cjs/loader:1119:32)\n' +
+    '    at Module._load (node:internal/modules/cjs/loader:960:12)\n' +
+    '    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:86:12)\n' +
+    '    at node:internal/main/run_main_module:23:47',
+  stack: 'ReferenceError: cors is not defined\n' +
+    '    at Object.<anonymous> (C:\\Viral\\Value At Void\\assignment - backend\\server.js:30:5)\n' +
+    '    at Module._compile (node:internal/modules/cjs/loader:1256:14)\n' +
+    '    at Module._extensions..js (node:internal/modules/cjs/loader:1310:10)\n' +
+    '    at Module.load (node:internal/modules/cjs/loader:1119:32)\n' +
+    '    at Module._load (node:internal/modules/cjs/loader:960:12)\n' +
+    '    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:86:12)\n' +
+    '    at node:internal/main/run_main_module:23:47',
+  exception: true,
+  date: 'Sat May 31 2025 15:28:46 GMT+0530 (India Standard Time)',
+  process: {
+    pid: 19152,
+    uid: null,
+    gid: null,
+    cwd: 'C:\\Viral\\Value At Void\\assignment - backend',
+    execPath: 'C:\\Program Files\\nodejs\\node.exe',
+    version: 'v18.18.0',
+    argv: [
+      'C:\\Program Files\\nodejs\\node.exe',
+      'C:\\Viral\\Value At Void\\assignment - backend\\server.js'
+    ],
+    memoryUsage: {
+      rss: 81866752,
+      heapTotal: 40706048,
+      heapUsed: 31408528,
+      external: 19679085,
+      arrayBuffers: 18739333
+    }
+  },
+  os: { loadavg: [ 0, 0, 0 ], uptime: 8978020.546 },
+  trace: [
+    {
+      column: 5,
+      file: 'C:\\Viral\\Value At Void\\assignment - backend\\server.js',
+      function: null,
+      line: 30,
+      method: null,
+      native: false
+    },
+    {
+      column: 14,
+      file: 'node:internal/modules/cjs/loader',
+      function: 'Module._compile',
+      line: 1256,
+      method: '_compile',
+      native: false
+    },
+    {
+      column: 10,
+      file: 'node:internal/modules/cjs/loader',
+      function: 'Module._extensions..js',
+      line: 1310,
+      method: '.js',
+      native: false
+    },
+    {
+      column: 32,
+      file: 'node:internal/modules/cjs/loader',
+      function: 'Module.load',
+      line: 1119,
+      method: 'load',
+      native: false
+    },
+    {
+      column: 12,
+      file: 'node:internal/modules/cjs/loader',
+      function: 'Module._load',
+      line: 960,
+      method: '_load',
+      native: false
+    },
+    {
+      column: 12,
+      file: 'node:internal/modules/run_main',
+      function: 'Function.executeUserEntryPoint [as runMain]',
+      line: 86,
+      method: 'executeUserEntryPoint [as runMain]',
+      native: false
+    },
+    {
+      column: 47,
+      file: 'node:internal/main/run_main_module',
+      function: null,
+      line: 23,
+      method: null,
+      native: false
+    }
+  ],
+  label: 'API Logs',
+  timestamp: 'May-31-2025 15:28:46'
+}
+{
+  error: ReferenceError: tu is not defined
+      at Object.<anonymous> (C:\Viral\Value At Void\assignment - backend\models\Job.js:17:13)
+      at Module._compile (node:internal/modules/cjs/loader:1256:14)
+      at Module._extensions..js (node:internal/modules/cjs/loader:1310:10)
+      at Module.load (node:internal/modules/cjs/loader:1119:32)
+      at Module._load (node:internal/modules/cjs/loader:960:12)
+      at Module.require (node:internal/modules/cjs/loader:1143:19)
+      at require (node:internal/modules/cjs/helpers:119:18)
+      at Object.<anonymous> (C:\Viral\Value At Void\assignment - backend\controllers\JobController.js:2:13)
+      at Module._compile (node:internal/modules/cjs/loader:1256:14)
+      at Module._extensions..js (node:internal/modules/cjs/loader:1310:10),
+  level: 'error',
+  message: 'uncaughtException: tu is not defined\n' +
+    'ReferenceError: tu is not defined\n' +
+    '    at Object.<anonymous> (C:\\Viral\\Value At Void\\assignment - backend\\models\\Job.js:17:13)\n' +
+    '    at Module._compile (node:internal/modules/cjs/loader:1256:14)\n' +
+    '    at Module._extensions..js (node:internal/modules/cjs/loader:1310:10)\n' +
+    '    at Module.load (node:internal/modules/cjs/loader:1119:32)\n' +
+    '    at Module._load (node:internal/modules/cjs/loader:960:12)\n' +
+    '    at Module.require (node:internal/modules/cjs/loader:1143:19)\n' +
+    '    at require (node:internal/modules/cjs/helpers:119:18)\n' +
+    '    at Object.<anonymous> (C:\\Viral\\Value At Void\\assignment - backend\\controllers\\JobController.js:2:13)\n' +
+    '    at Module._compile (node:internal/modules/cjs/loader:1256:14)\n' +
+    '    at Module._extensions..js (node:internal/modules/cjs/loader:1310:10)',
+  stack: 'ReferenceError: tu is not defined\n' +
+    '    at Object.<anonymous> (C:\\Viral\\Value At Void\\assignment - backend\\models\\Job.js:17:13)\n' +
+    '    at Module._compile (node:internal/modules/cjs/loader:1256:14)\n' +
+    '    at Module._extensions..js (node:internal/modules/cjs/loader:1310:10)\n' +
+    '    at Module.load (node:internal/modules/cjs/loader:1119:32)\n' +
+    '    at Module._load (node:internal/modules/cjs/loader:960:12)\n' +
+    '    at Module.require (node:internal/modules/cjs/loader:1143:19)\n' +
+    '    at require (node:internal/modules/cjs/helpers:119:18)\n' +
+    '    at Object.<anonymous> (C:\\Viral\\Value At Void\\assignment - backend\\controllers\\JobController.js:2:13)\n' +
+    '    at Module._compile (node:internal/modules/cjs/loader:1256:14)\n' +
+    '    at Module._extensions..js (node:internal/modules/cjs/loader:1310:10)',
+  exception: true,
+  date: 'Sat May 31 2025 16:33:51 GMT+0530 (India Standard Time)',
+  process: {
+    pid: 6172,
+    uid: null,
+    gid: null,
+    cwd: 'C:\\Viral\\Value At Void\\assignment - backend',
+    execPath: 'C:\\Program Files\\nodejs\\node.exe',
+    version: 'v18.18.0',
+    argv: [
+      'C:\\Program Files\\nodejs\\node.exe',
+      'C:\\Viral\\Value At Void\\assignment - backend\\server.js'
+    ],
+    memoryUsage: {
+      rss: 81158144,
+      heapTotal: 37535744,
+      heapUsed: 27074536,
+      external: 19948990,
+      arrayBuffers: 19009238
+    }
+  },
+  os: { loadavg: [ 0, 0, 0 ], uptime: 8981926.437 },
+  trace: [
+    {
+      column: 13,
+      file: 'C:\\Viral\\Value At Void\\assignment - backend\\models\\Job.js',
+      function: null,
+      line: 17,
+      method: null,
+      native: false
+    },
+    {
+      column: 14,
+      file: 'node:internal/modules/cjs/loader',
+      function: 'Module._compile',
+      line: 1256,
+      method: '_compile',
+      native: false
+    },
+    {
+      column: 10,
+      file: 'node:internal/modules/cjs/loader',
+      function: 'Module._extensions..js',
+      line: 1310,
+      method: '.js',
+      native: false
+    },
+    {
+      column: 32,
+      file: 'node:internal/modules/cjs/loader',
+      function: 'Module.load',
+      line: 1119,
+      method: 'load',
+      native: false
+    },
+    {
+      column: 12,
+      file: 'node:internal/modules/cjs/loader',
+      function: 'Module._load',
+      line: 960,
+      method: '_load',
+      native: false
+    },
+    {
+      column: 19,
+      file: 'node:internal/modules/cjs/loader',
+      function: 'Module.require',
+      line: 1143,
+      method: 'require',
+      native: false
+    },
+    {
+      column: 18,
+      file: 'node:internal/modules/cjs/helpers',
+      function: 'require',
+      line: 119,
+      method: null,
+      native: false
+    },
+    {
+      column: 13,
+      file: 'C:\\Viral\\Value At Void\\assignment - backend\\controllers\\JobController.js',
+      function: null,
+      line: 2,
+      method: null,
+      native: false
+    },
+    {
+      column: 14,
+      file: 'node:internal/modules/cjs/loader',
+      function: 'Module._compile',
+      line: 1256,
+      method: '_compile',
+      native: false
+    },
+    {
+      column: 10,
+      file: 'node:internal/modules/cjs/loader',
+      function: 'Module._extensions..js',
+      line: 1310,
+      method: '.js',
+      native: false
+    }
+  ],
+  label: 'API Logs',
+  timestamp: 'May-31-2025 16:33:51'
+}
+{
+  error: C:\Viral\Value At Void\assignment - backend\controllers\JobController.js:37
+      const jobs = await Job.find(query)
+      ^^^^^
+  
+  SyntaxError: Unexpected token 'const'
+      at internalCompileFunction (node:internal/vm:73:18)
+      at wrapSafe (node:internal/modules/cjs/loader:1178:20)
+      at Module._compile (node:internal/modules/cjs/loader:1220:27)
+      at Module._extensions..js (node:internal/modules/cjs/loader:1310:10)
+      at Module.load (node:internal/modules/cjs/loader:1119:32)
+      at Module._load (node:internal/modules/cjs/loader:960:12)
+      at Module.require (node:internal/modules/cjs/loader:1143:19)
+      at require (node:internal/modules/cjs/helpers:119:18)
+      at Object.<anonymous> (C:\Viral\Value At Void\assignment - backend\routes\JobRoutes.js:2:23)
+      at Module._compile (node:internal/modules/cjs/loader:1256:14),
+  level: 'error',
+  message: "uncaughtException: Unexpected token 'const'\n" +
+    'C:\\Viral\\Value At Void\\assignment - backend\\controllers\\JobController.js:37\n' +
+    '    const jobs = await Job.find(query)\n' +
+    '    ^^^^^\n' +
+    '\n' +
+    "SyntaxError: Unexpected token 'const'\n" +
+    '    at internalCompileFunction (node:internal/vm:73:18)\n' +
+    '    at wrapSafe (node:internal/modules/cjs/loader:1178:20)\n' +
+    '    at Module._compile (node:internal/modules/cjs/loader:1220:27)\n' +
+    '    at Module._extensions..js (node:internal/modules/cjs/loader:1310:10)\n' +
+    '    at Module.load (node:internal/modules/cjs/loader:1119:32)\n' +
+    '    at Module._load (node:internal/modules/cjs/loader:960:12)\n' +
+    '    at Module.require (node:internal/modules/cjs/loader:1143:19)\n' +
+    '    at require (node:internal/modules/cjs/helpers:119:18)\n' +
+    '    at Object.<anonymous> (C:\\Viral\\Value At Void\\assignment - backend\\routes\\JobRoutes.js:2:23)\n' +
+    '    at Module._compile (node:internal/modules/cjs/loader:1256:14)',
+  stack: 'C:\\Viral\\Value At Void\\assignment - backend\\controllers\\JobController.js:37\n' +
+    '    const jobs = await Job.find(query)\n' +
+    '    ^^^^^\n' +
+    '\n' +
+    "SyntaxError: Unexpected token 'const'\n" +
+    '    at internalCompileFunction (node:internal/vm:73:18)\n' +
+    '    at wrapSafe (node:internal/modules/cjs/loader:1178:20)\n' +
+    '    at Module._compile (node:internal/modules/cjs/loader:1220:27)\n' +
+    '    at Module._extensions..js (node:internal/modules/cjs/loader:1310:10)\n' +
+    '    at Module.load (node:internal/modules/cjs/loader:1119:32)\n' +
+    '    at Module._load (node:internal/modules/cjs/loader:960:12)\n' +
+    '    at Module.require (node:internal/modules/cjs/loader:1143:19)\n' +
+    '    at require (node:internal/modules/cjs/helpers:119:18)\n' +
+    '    at Object.<anonymous> (C:\\Viral\\Value At Void\\assignment - backend\\routes\\JobRoutes.js:2:23)\n' +
+    '    at Module._compile (node:internal/modules/cjs/loader:1256:14)',
+  exception: true,
+  date: 'Sat May 31 2025 16:45:00 GMT+0530 (India Standard Time)',
+  process: {
+    pid: 34996,
+    uid: null,
+    gid: null,
+    cwd: 'C:\\Viral\\Value At Void\\assignment - backend',
+    execPath: 'C:\\Program Files\\nodejs\\node.exe',
+    version: 'v18.18.0',
+    argv: [
+      'C:\\Program Files\\nodejs\\node.exe',
+      'C:\\Viral\\Value At Void\\assignment - backend\\server.js'
+    ],
+    memoryUsage: {
+      rss: 80805888,
+      heapTotal: 37535744,
+      heapUsed: 26868688,
+      external: 19940798,
+      arrayBuffers: 19001046
+    }
+  },
+  os: { loadavg: [ 0, 0, 0 ], uptime: 8982595.046 },
+  trace: [
+    {
+      column: 18,
+      file: 'node:internal/vm',
+      function: 'internalCompileFunction',
+      line: 73,
+      method: null,
+      native: false
+    },
+    {
+      column: 20,
+      file: 'node:internal/modules/cjs/loader',
+      function: 'wrapSafe',
+      line: 1178,
+      method: null,
+      native: false
+    },
+    {
+      column: 27,
+      file: 'node:internal/modules/cjs/loader',
+      function: 'Module._compile',
+      line: 1220,
+      method: '_compile',
+      native: false
+    },
+    {
+      column: 10,
+      file: 'node:internal/modules/cjs/loader',
+      function: 'Module._extensions..js',
+      line: 1310,
+      method: '.js',
+      native: false
+    },
+    {
+      column: 32,
+      file: 'node:internal/modules/cjs/loader',
+      function: 'Module.load',
+      line: 1119,
+      method: 'load',
+      native: false
+    },
+    {
+      column: 12,
+      file: 'node:internal/modules/cjs/loader',
+      function: 'Module._load',
+      line: 960,
+      method: '_load',
+      native: false
+    },
+    {
+      column: 19,
+      file: 'node:internal/modules/cjs/loader',
+      function: 'Module.require',
+      line: 1143,
+      method: 'require',
+      native: false
+    },
+    {
+      column: 18,
+      file: 'node:internal/modules/cjs/helpers',
+      function: 'require',
+      line: 119,
+      method: null,
+      native: false
+    },
+    {
+      column: 23,
+      file: 'C:\\Viral\\Value At Void\\assignment - backend\\routes\\JobRoutes.js',
+      function: null,
+      line: 2,
+      method: null,
+      native: false
+    },
+    {
+      column: 14,
+      file: 'node:internal/modules/cjs/loader',
+      function: 'Module._compile',
+      line: 1256,
+      method: '_compile',
+      native: false
+    }
+  ],
+  label: 'API Logs',
+  timestamp: 'May-31-2025 16:45:00'
+}
+{
+  error: C:\Viral\Value At Void\assignment - backend\controllers\JobController.js:3
+  const Job = require("../models/Job");
+        ^
+  
+  SyntaxError: Identifier 'Job' has already been declared
+      at internalCompileFunction (node:internal/vm:73:18)
+      at wrapSafe (node:internal/modules/cjs/loader:1178:20)
+      at Module._compile (node:internal/modules/cjs/loader:1220:27)
+      at Module._extensions..js (node:internal/modules/cjs/loader:1310:10)
+      at Module.load (node:internal/modules/cjs/loader:1119:32)
+      at Module._load (node:internal/modules/cjs/loader:960:12)
+      at Module.require (node:internal/modules/cjs/loader:1143:19)
+      at require (node:internal/modules/cjs/helpers:119:18)
+      at Object.<anonymous> (C:\Viral\Value At Void\assignment - backend\routes\JobRoutes.js:2:23)
+      at Module._compile (node:internal/modules/cjs/loader:1256:14),
+  level: 'error',
+  message: "uncaughtException: Identifier 'Job' has already been declared\n" +
+    'C:\\Viral\\Value At Void\\assignment - backend\\controllers\\JobController.js:3\n' +
+    'const Job = require("../models/Job");\n' +
+    '      ^\n' +
+    '\n' +
+    "SyntaxError: Identifier 'Job' has already been declared\n" +
+    '    at internalCompileFunction (node:internal/vm:73:18)\n' +
+    '    at wrapSafe (node:internal/modules/cjs/loader:1178:20)\n' +
+    '    at Module._compile (node:internal/modules/cjs/loader:1220:27)\n' +
+    '    at Module._extensions..js (node:internal/modules/cjs/loader:1310:10)\n' +
+    '    at Module.load (node:internal/modules/cjs/loader:1119:32)\n' +
+    '    at Module._load (node:internal/modules/cjs/loader:960:12)\n' +
+    '    at Module.require (node:internal/modules/cjs/loader:1143:19)\n' +
+    '    at require (node:internal/modules/cjs/helpers:119:18)\n' +
+    '    at Object.<anonymous> (C:\\Viral\\Value At Void\\assignment - backend\\routes\\JobRoutes.js:2:23)\n' +
+    '    at Module._compile (node:internal/modules/cjs/loader:1256:14)',
+  stack: 'C:\\Viral\\Value At Void\\assignment - backend\\controllers\\JobController.js:3\n' +
+    'const Job = require("../models/Job");\n' +
+    '      ^\n' +
+    '\n' +
+    "SyntaxError: Identifier 'Job' has already been declared\n" +
+    '    at internalCompileFunction (node:internal/vm:73:18)\n' +
+    '    at wrapSafe (node:internal/modules/cjs/loader:1178:20)\n' +
+    '    at Module._compile (node:internal/modules/cjs/loader:1220:27)\n' +
+    '    at Module._extensions..js (node:internal/modules/cjs/loader:1310:10)\n' +
+    '    at Module.load (node:internal/modules/cjs/loader:1119:32)\n' +
+    '    at Module._load (node:internal/modules/cjs/loader:960:12)\n' +
+    '    at Module.require (node:internal/modules/cjs/loader:1143:19)\n' +
+    '    at require (node:internal/modules/cjs/helpers:119:18)\n' +
+    '    at Object.<anonymous> (C:\\Viral\\Value At Void\\assignment - backend\\routes\\JobRoutes.js:2:23)\n' +
+    '    at Module._compile (node:internal/modules/cjs/loader:1256:14)',
+  exception: true,
+  date: 'Sat May 31 2025 16:50:26 GMT+0530 (India Standard Time)',
+  process: {
+    pid: 75140,
+    uid: null,
+    gid: null,
+    cwd: 'C:\\Viral\\Value At Void\\assignment - backend',
+    execPath: 'C:\\Program Files\\nodejs\\node.exe',
+    version: 'v18.18.0',
+    argv: [
+      'C:\\Program Files\\nodejs\\node.exe',
+      'C:\\Viral\\Value At Void\\assignment - backend\\server.js'
+    ],
+    memoryUsage: {
+      rss: 80687104,
+      heapTotal: 37535744,
+      heapUsed: 26983704,
+      external: 19948990,
+      arrayBuffers: 19009238
+    }
+  },
+  os: { loadavg: [ 0, 0, 0 ], uptime: 8982921.406 },
+  trace: [
+    {
+      column: 18,
+      file: 'node:internal/vm',
+      function: 'internalCompileFunction',
+      line: 73,
+      method: null,
+      native: false
+    },
+    {
+      column: 20,
+      file: 'node:internal/modules/cjs/loader',
+      function: 'wrapSafe',
+      line: 1178,
+      method: null,
+      native: false
+    },
+    {
+      column: 27,
+      file: 'node:internal/modules/cjs/loader',
+      function: 'Module._compile',
+      line: 1220,
+      method: '_compile',
+      native: false
+    },
+    {
+      column: 10,
+      file: 'node:internal/modules/cjs/loader',
+      function: 'Module._extensions..js',
+      line: 1310,
+      method: '.js',
+      native: false
+    },
+    {
+      column: 32,
+      file: 'node:internal/modules/cjs/loader',
+      function: 'Module.load',
+      line: 1119,
+      method: 'load',
+      native: false
+    },
+    {
+      column: 12,
+      file: 'node:internal/modules/cjs/loader',
+      function: 'Module._load',
+      line: 960,
+      method: '_load',
+      native: false
+    },
+    {
+      column: 19,
+      file: 'node:internal/modules/cjs/loader',
+      function: 'Module.require',
+      line: 1143,
+      method: 'require',
+      native: false
+    },
+    {
+      column: 18,
+      file: 'node:internal/modules/cjs/helpers',
+      function: 'require',
+      line: 119,
+      method: null,
+      native: false
+    },
+    {
+      column: 23,
+      file: 'C:\\Viral\\Value At Void\\assignment - backend\\routes\\JobRoutes.js',
+      function: null,
+      line: 2,
+      method: null,
+      native: false
+    },
+    {
+      column: 14,
+      file: 'node:internal/modules/cjs/loader',
+      function: 'Module._compile',
+      line: 1256,
+      method: '_compile',
+      native: false
+    }
+  ],
+  label: 'API Logs',
+  timestamp: 'May-31-2025 16:50:26'
+}
+{
+  error: C:\Viral\Value At Void\assignment - backend\controllers\JobController.js:3
+  const Job = require("../models/Job");
+        ^
+  
+  SyntaxError: Identifier 'Job' has already been declared
+      at internalCompileFunction (node:internal/vm:73:18)
+      at wrapSafe (node:internal/modules/cjs/loader:1178:20)
+      at Module._compile (node:internal/modules/cjs/loader:1220:27)
+      at Module._extensions..js (node:internal/modules/cjs/loader:1310:10)
+      at Module.load (node:internal/modules/cjs/loader:1119:32)
+      at Module._load (node:internal/modules/cjs/loader:960:12)
+      at Module.require (node:internal/modules/cjs/loader:1143:19)
+      at require (node:internal/modules/cjs/helpers:119:18)
+      at Object.<anonymous> (C:\Viral\Value At Void\assignment - backend\routes\JobRoutes.js:2:23)
+      at Module._compile (node:internal/modules/cjs/loader:1256:14),
+  level: 'error',
+  message: "uncaughtException: Identifier 'Job' has already been declared\n" +
+    'C:\\Viral\\Value At Void\\assignment - backend\\controllers\\JobController.js:3\n' +
+    'const Job = require("../models/Job");\n' +
+    '      ^\n' +
+    '\n' +
+    "SyntaxError: Identifier 'Job' has already been declared\n" +
+    '    at internalCompileFunction (node:internal/vm:73:18)\n' +
+    '    at wrapSafe (node:internal/modules/cjs/loader:1178:20)\n' +
+    '    at Module._compile (node:internal/modules/cjs/loader:1220:27)\n' +
+    '    at Module._extensions..js (node:internal/modules/cjs/loader:1310:10)\n' +
+    '    at Module.load (node:internal/modules/cjs/loader:1119:32)\n' +
+    '    at Module._load (node:internal/modules/cjs/loader:960:12)\n' +
+    '    at Module.require (node:internal/modules/cjs/loader:1143:19)\n' +
+    '    at require (node:internal/modules/cjs/helpers:119:18)\n' +
+    '    at Object.<anonymous> (C:\\Viral\\Value At Void\\assignment - backend\\routes\\JobRoutes.js:2:23)\n' +
+    '    at Module._compile (node:internal/modules/cjs/loader:1256:14)',
+  stack: 'C:\\Viral\\Value At Void\\assignment - backend\\controllers\\JobController.js:3\n' +
+    'const Job = require("../models/Job");\n' +
+    '      ^\n' +
+    '\n' +
+    "SyntaxError: Identifier 'Job' has already been declared\n" +
+    '    at internalCompileFunction (node:internal/vm:73:18)\n' +
+    '    at wrapSafe (node:internal/modules/cjs/loader:1178:20)\n' +
+    '    at Module._compile (node:internal/modules/cjs/loader:1220:27)\n' +
+    '    at Module._extensions..js (node:internal/modules/cjs/loader:1310:10)\n' +
+    '    at Module.load (node:internal/modules/cjs/loader:1119:32)\n' +
+    '    at Module._load (node:internal/modules/cjs/loader:960:12)\n' +
+    '    at Module.require (node:internal/modules/cjs/loader:1143:19)\n' +
+    '    at require (node:internal/modules/cjs/helpers:119:18)\n' +
+    '    at Object.<anonymous> (C:\\Viral\\Value At Void\\assignment - backend\\routes\\JobRoutes.js:2:23)\n' +
+    '    at Module._compile (node:internal/modules/cjs/loader:1256:14)',
+  exception: true,
+  date: 'Sat May 31 2025 16:50:28 GMT+0530 (India Standard Time)',
+  process: {
+    pid: 11420,
+    uid: null,
+    gid: null,
+    cwd: 'C:\\Viral\\Value At Void\\assignment - backend',
+    execPath: 'C:\\Program Files\\nodejs\\node.exe',
+    version: 'v18.18.0',
+    argv: [
+      'C:\\Program Files\\nodejs\\node.exe',
+      'C:\\Viral\\Value At Void\\assignment - backend\\server.js'
+    ],
+    memoryUsage: {
+      rss: 80715776,
+      heapTotal: 37535744,
+      heapUsed: 26804920,
+      external: 19977938,
+      arrayBuffers: 19038186
+    }
+  },
+  os: { loadavg: [ 0, 0, 0 ], uptime: 8982923.453 },
+  trace: [
+    {
+      column: 18,
+      file: 'node:internal/vm',
+      function: 'internalCompileFunction',
+      line: 73,
+      method: null,
+      native: false
+    },
+    {
+      column: 20,
+      file: 'node:internal/modules/cjs/loader',
+      function: 'wrapSafe',
+      line: 1178,
+      method: null,
+      native: false
+    },
+    {
+      column: 27,
+      file: 'node:internal/modules/cjs/loader',
+      function: 'Module._compile',
+      line: 1220,
+      method: '_compile',
+      native: false
+    },
+    {
+      column: 10,
+      file: 'node:internal/modules/cjs/loader',
+      function: 'Module._extensions..js',
+      line: 1310,
+      method: '.js',
+      native: false
+    },
+    {
+      column: 32,
+      file: 'node:internal/modules/cjs/loader',
+      function: 'Module.load',
+      line: 1119,
+      method: 'load',
+      native: false
+    },
+    {
+      column: 12,
+      file: 'node:internal/modules/cjs/loader',
+      function: 'Module._load',
+      line: 960,
+      method: '_load',
+      native: false
+    },
+    {
+      column: 19,
+      file: 'node:internal/modules/cjs/loader',
+      function: 'Module.require',
+      line: 1143,
+      method: 'require',
+      native: false
+    },
+    {
+      column: 18,
+      file: 'node:internal/modules/cjs/helpers',
+      function: 'require',
+      line: 119,
+      method: null,
+      native: false
+    },
+    {
+      column: 23,
+      file: 'C:\\Viral\\Value At Void\\assignment - backend\\routes\\JobRoutes.js',
+      function: null,
+      line: 2,
+      method: null,
+      native: false
+    },
+    {
+      column: 14,
+      file: 'node:internal/modules/cjs/loader',
+      function: 'Module._compile',
+      line: 1256,
+      method: '_compile',
+      native: false
+    }
+  ],
+  label: 'API Logs',
+  timestamp: 'May-31-2025 16:50:28'
+}
+{
+  error: C:\Viral\Value At Void\assignment - backend\controllers\JobController.js:3
+  const Job = require("../models/Job-state");
+        ^
+  
+  SyntaxError: Identifier 'Job' has already been declared
+      at internalCompileFunction (node:internal/vm:73:18)
+      at wrapSafe (node:internal/modules/cjs/loader:1178:20)
+      at Module._compile (node:internal/modules/cjs/loader:1220:27)
+      at Module._extensions..js (node:internal/modules/cjs/loader:1310:10)
+      at Module.load (node:internal/modules/cjs/loader:1119:32)
+      at Module._load (node:internal/modules/cjs/loader:960:12)
+      at Module.require (node:internal/modules/cjs/loader:1143:19)
+      at require (node:internal/modules/cjs/helpers:119:18)
+      at Object.<anonymous> (C:\Viral\Value At Void\assignment - backend\routes\JobRoutes.js:2:23)
+      at Module._compile (node:internal/modules/cjs/loader:1256:14),
+  level: 'error',
+  message: "uncaughtException: Identifier 'Job' has already been declared\n" +
+    'C:\\Viral\\Value At Void\\assignment - backend\\controllers\\JobController.js:3\n' +
+    'const Job = require("../models/Job-state");\n' +
+    '      ^\n' +
+    '\n' +
+    "SyntaxError: Identifier 'Job' has already been declared\n" +
+    '    at internalCompileFunction (node:internal/vm:73:18)\n' +
+    '    at wrapSafe (node:internal/modules/cjs/loader:1178:20)\n' +
+    '    at Module._compile (node:internal/modules/cjs/loader:1220:27)\n' +
+    '    at Module._extensions..js (node:internal/modules/cjs/loader:1310:10)\n' +
+    '    at Module.load (node:internal/modules/cjs/loader:1119:32)\n' +
+    '    at Module._load (node:internal/modules/cjs/loader:960:12)\n' +
+    '    at Module.require (node:internal/modules/cjs/loader:1143:19)\n' +
+    '    at require (node:internal/modules/cjs/helpers:119:18)\n' +
+    '    at Object.<anonymous> (C:\\Viral\\Value At Void\\assignment - backend\\routes\\JobRoutes.js:2:23)\n' +
+    '    at Module._compile (node:internal/modules/cjs/loader:1256:14)',
+  stack: 'C:\\Viral\\Value At Void\\assignment - backend\\controllers\\JobController.js:3\n' +
+    'const Job = require("../models/Job-state");\n' +
+    '      ^\n' +
+    '\n' +
+    "SyntaxError: Identifier 'Job' has already been declared\n" +
+    '    at internalCompileFunction (node:internal/vm:73:18)\n' +
+    '    at wrapSafe (node:internal/modules/cjs/loader:1178:20)\n' +
+    '    at Module._compile (node:internal/modules/cjs/loader:1220:27)\n' +
+    '    at Module._extensions..js (node:internal/modules/cjs/loader:1310:10)\n' +
+    '    at Module.load (node:internal/modules/cjs/loader:1119:32)\n' +
+    '    at Module._load (node:internal/modules/cjs/loader:960:12)\n' +
+    '    at Module.require (node:internal/modules/cjs/loader:1143:19)\n' +
+    '    at require (node:internal/modules/cjs/helpers:119:18)\n' +
+    '    at Object.<anonymous> (C:\\Viral\\Value At Void\\assignment - backend\\routes\\JobRoutes.js:2:23)\n' +
+    '    at Module._compile (node:internal/modules/cjs/loader:1256:14)',
+  exception: true,
+  date: 'Sat May 31 2025 16:50:30 GMT+0530 (India Standard Time)',
+  process: {
+    pid: 37772,
+    uid: null,
+    gid: null,
+    cwd: 'C:\\Viral\\Value At Void\\assignment - backend',
+    execPath: 'C:\\Program Files\\nodejs\\node.exe',
+    version: 'v18.18.0',
+    argv: [
+      'C:\\Program Files\\nodejs\\node.exe',
+      'C:\\Viral\\Value At Void\\assignment - backend\\server.js'
+    ],
+    memoryUsage: {
+      rss: 79962112,
+      heapTotal: 37797888,
+      heapUsed: 26912664,
+      external: 19948990,
+      arrayBuffers: 19009238
+    }
+  },
+  os: { loadavg: [ 0, 0, 0 ], uptime: 8982925.515 },
+  trace: [
+    {
+      column: 18,
+      file: 'node:internal/vm',
+      function: 'internalCompileFunction',
+      line: 73,
+      method: null,
+      native: false
+    },
+    {
+      column: 20,
+      file: 'node:internal/modules/cjs/loader',
+      function: 'wrapSafe',
+      line: 1178,
+      method: null,
+      native: false
+    },
+    {
+      column: 27,
+      file: 'node:internal/modules/cjs/loader',
+      function: 'Module._compile',
+      line: 1220,
+      method: '_compile',
+      native: false
+    },
+    {
+      column: 10,
+      file: 'node:internal/modules/cjs/loader',
+      function: 'Module._extensions..js',
+      line: 1310,
+      method: '.js',
+      native: false
+    },
+    {
+      column: 32,
+      file: 'node:internal/modules/cjs/loader',
+      function: 'Module.load',
+      line: 1119,
+      method: 'load',
+      native: false
+    },
+    {
+      column: 12,
+      file: 'node:internal/modules/cjs/loader',
+      function: 'Module._load',
+      line: 960,
+      method: '_load',
+      native: false
+    },
+    {
+      column: 19,
+      file: 'node:internal/modules/cjs/loader',
+      function: 'Module.require',
+      line: 1143,
+      method: 'require',
+      native: false
+    },
+    {
+      column: 18,
+      file: 'node:internal/modules/cjs/helpers',
+      function: 'require',
+      line: 119,
+      method: null,
+      native: false
+    },
+    {
+      column: 23,
+      file: 'C:\\Viral\\Value At Void\\assignment - backend\\routes\\JobRoutes.js',
+      function: null,
+      line: 2,
+      method: null,
+      native: false
+    },
+    {
+      column: 14,
+      file: 'node:internal/modules/cjs/loader',
+      function: 'Module._compile',
+      line: 1256,
+      method: '_compile',
+      native: false
+    }
+  ],
+  label: 'API Logs',
+  timestamp: 'May-31-2025 16:50:31'
+}
+{
+  error: Error: Cannot find module '../models/Job-state'
+  Require stack:
+  - C:\Viral\Value At Void\assignment - backend\controllers\JobController.js
+  - C:\Viral\Value At Void\assignment - backend\routes\JobRoutes.js
+  - C:\Viral\Value At Void\assignment - backend\server.js
+      at Module._resolveFilename (node:internal/modules/cjs/loader:1077:15)
+      at Module._load (node:internal/modules/cjs/loader:922:27)
+      at Module.require (node:internal/modules/cjs/loader:1143:19)
+      at require (node:internal/modules/cjs/helpers:119:18)
+      at Object.<anonymous> (C:\Viral\Value At Void\assignment - backend\controllers\JobController.js:3:18)
+      at Module._compile (node:internal/modules/cjs/loader:1256:14)
+      at Module._extensions..js (node:internal/modules/cjs/loader:1310:10)
+      at Module.load (node:internal/modules/cjs/loader:1119:32)
+      at Module._load (node:internal/modules/cjs/loader:960:12)
+      at Module.require (node:internal/modules/cjs/loader:1143:19) {
+    code: 'MODULE_NOT_FOUND',
+    requireStack: [
+      'C:\\Viral\\Value At Void\\assignment - backend\\controllers\\JobController.js',
+      'C:\\Viral\\Value At Void\\assignment - backend\\routes\\JobRoutes.js',
+      'C:\\Viral\\Value At Void\\assignment - backend\\server.js'
+    ]
+  },
+  level: 'error',
+  message: "uncaughtException: Cannot find module '../models/Job-state'\n" +
+    'Require stack:\n' +
+    '- C:\\Viral\\Value At Void\\assignment - backend\\controllers\\JobController.js\n' +
+    '- C:\\Viral\\Value At Void\\assignment - backend\\routes\\JobRoutes.js\n' +
+    '- C:\\Viral\\Value At Void\\assignment - backend\\server.js\n' +
+    "Error: Cannot find module '../models/Job-state'\n" +
+    'Require stack:\n' +
+    '- C:\\Viral\\Value At Void\\assignment - backend\\controllers\\JobController.js\n' +
+    '- C:\\Viral\\Value At Void\\assignment - backend\\routes\\JobRoutes.js\n' +
+    '- C:\\Viral\\Value At Void\\assignment - backend\\server.js\n' +
+    '    at Module._resolveFilename (node:internal/modules/cjs/loader:1077:15)\n' +
+    '    at Module._load (node:internal/modules/cjs/loader:922:27)\n' +
+    '    at Module.require (node:internal/modules/cjs/loader:1143:19)\n' +
+    '    at require (node:internal/modules/cjs/helpers:119:18)\n' +
+    '    at Object.<anonymous> (C:\\Viral\\Value At Void\\assignment - backend\\controllers\\JobController.js:3:18)\n' +
+    '    at Module._compile (node:internal/modules/cjs/loader:1256:14)\n' +
+    '    at Module._extensions..js (node:internal/modules/cjs/loader:1310:10)\n' +
+    '    at Module.load (node:internal/modules/cjs/loader:1119:32)\n' +
+    '    at Module._load (node:internal/modules/cjs/loader:960:12)\n' +
+    '    at Module.require (node:internal/modules/cjs/loader:1143:19)',
+  stack: "Error: Cannot find module '../models/Job-state'\n" +
+    'Require stack:\n' +
+    '- C:\\Viral\\Value At Void\\assignment - backend\\controllers\\JobController.js\n' +
+    '- C:\\Viral\\Value At Void\\assignment - backend\\routes\\JobRoutes.js\n' +
+    '- C:\\Viral\\Value At Void\\assignment - backend\\server.js\n' +
+    '    at Module._resolveFilename (node:internal/modules/cjs/loader:1077:15)\n' +
+    '    at Module._load (node:internal/modules/cjs/loader:922:27)\n' +
+    '    at Module.require (node:internal/modules/cjs/loader:1143:19)\n' +
+    '    at require (node:internal/modules/cjs/helpers:119:18)\n' +
+    '    at Object.<anonymous> (C:\\Viral\\Value At Void\\assignment - backend\\controllers\\JobController.js:3:18)\n' +
+    '    at Module._compile (node:internal/modules/cjs/loader:1256:14)\n' +
+    '    at Module._extensions..js (node:internal/modules/cjs/loader:1310:10)\n' +
+    '    at Module.load (node:internal/modules/cjs/loader:1119:32)\n' +
+    '    at Module._load (node:internal/modules/cjs/loader:960:12)\n' +
+    '    at Module.require (node:internal/modules/cjs/loader:1143:19)',
+  exception: true,
+  date: 'Sat May 31 2025 16:50:45 GMT+0530 (India Standard Time)',
+  process: {
+    pid: 18124,
+    uid: null,
+    gid: null,
+    cwd: 'C:\\Viral\\Value At Void\\assignment - backend',
+    execPath: 'C:\\Program Files\\nodejs\\node.exe',
+    version: 'v18.18.0',
+    argv: [
+      'C:\\Program Files\\nodejs\\node.exe',
+      'C:\\Viral\\Value At Void\\assignment - backend\\server.js'
+    ],
+    memoryUsage: {
+      rss: 78913536,
+      heapTotal: 37797888,
+      heapUsed: 27099592,
+      external: 20018832,
+      arrayBuffers: 19079080
+    }
+  },
+  os: { loadavg: [ 0, 0, 0 ], uptime: 8982940.25 },
+  trace: [
+    {
+      column: 15,
+      file: 'node:internal/modules/cjs/loader',
+      function: 'Module._resolveFilename',
+      line: 1077,
+      method: '_resolveFilename',
+      native: false
+    },
+    {
+      column: 27,
+      file: 'node:internal/modules/cjs/loader',
+      function: 'Module._load',
+      line: 922,
+      method: '_load',
+      native: false
+    },
+    {
+      column: 19,
+      file: 'node:internal/modules/cjs/loader',
+      function: 'Module.require',
+      line: 1143,
+      method: 'require',
+      native: false
+    },
+    {
+      column: 18,
+      file: 'node:internal/modules/cjs/helpers',
+      function: 'require',
+      line: 119,
+      method: null,
+      native: false
+    },
+    {
+      column: 18,
+      file: 'C:\\Viral\\Value At Void\\assignment - backend\\controllers\\JobController.js',
+      function: null,
+      line: 3,
+      method: null,
+      native: false
+    },
+    {
+      column: 14,
+      file: 'node:internal/modules/cjs/loader',
+      function: 'Module._compile',
+      line: 1256,
+      method: '_compile',
+      native: false
+    },
+    {
+      column: 10,
+      file: 'node:internal/modules/cjs/loader',
+      function: 'Module._extensions..js',
+      line: 1310,
+      method: '.js',
+      native: false
+    },
+    {
+      column: 32,
+      file: 'node:internal/modules/cjs/loader',
+      function: 'Module.load',
+      line: 1119,
+      method: 'load',
+      native: false
+    },
+    {
+      column: 12,
+      file: 'node:internal/modules/cjs/loader',
+      function: 'Module._load',
+      line: 960,
+      method: '_load',
+      native: false
+    },
+    {
+      column: 19,
+      file: 'node:internal/modules/cjs/loader',
+      function: 'Module.require',
+      line: 1143,
+      method: 'require',
+      native: false
+    }
+  ],
+  label: 'API Logs',
+  timestamp: 'May-31-2025 16:50:45'
+}
+{
+  error: C:\Viral\Value At Void\assignment - backend\controllers\JobController.js:3
+  const Job = require("../models/Job");
+        ^
+  
+  SyntaxError: Identifier 'Job' has already been declared
+      at internalCompileFunction (node:internal/vm:73:18)
+      at wrapSafe (node:internal/modules/cjs/loader:1178:20)
+      at Module._compile (node:internal/modules/cjs/loader:1220:27)
+      at Module._extensions..js (node:internal/modules/cjs/loader:1310:10)
+      at Module.load (node:internal/modules/cjs/loader:1119:32)
+      at Module._load (node:internal/modules/cjs/loader:960:12)
+      at Module.require (node:internal/modules/cjs/loader:1143:19)
+      at require (node:internal/modules/cjs/helpers:119:18)
+      at Object.<anonymous> (C:\Viral\Value At Void\assignment - backend\routes\JobRoutes.js:2:23)
+      at Module._compile (node:internal/modules/cjs/loader:1256:14),
+  level: 'error',
+  message: "uncaughtException: Identifier 'Job' has already been declared\n" +
+    'C:\\Viral\\Value At Void\\assignment - backend\\controllers\\JobController.js:3\n' +
+    'const Job = require("../models/Job");\n' +
+    '      ^\n' +
+    '\n' +
+    "SyntaxError: Identifier 'Job' has already been declared\n" +
+    '    at internalCompileFunction (node:internal/vm:73:18)\n' +
+    '    at wrapSafe (node:internal/modules/cjs/loader:1178:20)\n' +
+    '    at Module._compile (node:internal/modules/cjs/loader:1220:27)\n' +
+    '    at Module._extensions..js (node:internal/modules/cjs/loader:1310:10)\n' +
+    '    at Module.load (node:internal/modules/cjs/loader:1119:32)\n' +
+    '    at Module._load (node:internal/modules/cjs/loader:960:12)\n' +
+    '    at Module.require (node:internal/modules/cjs/loader:1143:19)\n' +
+    '    at require (node:internal/modules/cjs/helpers:119:18)\n' +
+    '    at Object.<anonymous> (C:\\Viral\\Value At Void\\assignment - backend\\routes\\JobRoutes.js:2:23)\n' +
+    '    at Module._compile (node:internal/modules/cjs/loader:1256:14)',
+  stack: 'C:\\Viral\\Value At Void\\assignment - backend\\controllers\\JobController.js:3\n' +
+    'const Job = require("../models/Job");\n' +
+    '      ^\n' +
+    '\n' +
+    "SyntaxError: Identifier 'Job' has already been declared\n" +
+    '    at internalCompileFunction (node:internal/vm:73:18)\n' +
+    '    at wrapSafe (node:internal/modules/cjs/loader:1178:20)\n' +
+    '    at Module._compile (node:internal/modules/cjs/loader:1220:27)\n' +
+    '    at Module._extensions..js (node:internal/modules/cjs/loader:1310:10)\n' +
+    '    at Module.load (node:internal/modules/cjs/loader:1119:32)\n' +
+    '    at Module._load (node:internal/modules/cjs/loader:960:12)\n' +
+    '    at Module.require (node:internal/modules/cjs/loader:1143:19)\n' +
+    '    at require (node:internal/modules/cjs/helpers:119:18)\n' +
+    '    at Object.<anonymous> (C:\\Viral\\Value At Void\\assignment - backend\\routes\\JobRoutes.js:2:23)\n' +
+    '    at Module._compile (node:internal/modules/cjs/loader:1256:14)',
+  exception: true,
+  date: 'Sat May 31 2025 16:51:14 GMT+0530 (India Standard Time)',
+  process: {
+    pid: 62408,
+    uid: null,
+    gid: null,
+    cwd: 'C:\\Viral\\Value At Void\\assignment - backend',
+    execPath: 'C:\\Program Files\\nodejs\\node.exe',
+    version: 'v18.18.0',
+    argv: [
+      'C:\\Program Files\\nodejs\\node.exe',
+      'C:\\Viral\\Value At Void\\assignment - backend\\server.js'
+    ],
+    memoryUsage: {
+      rss: 81211392,
+      heapTotal: 37535744,
+      heapUsed: 26920144,
+      external: 19948990,
+      arrayBuffers: 19009238
+    }
+  },
+  os: { loadavg: [ 0, 0, 0 ], uptime: 8982968.968 },
+  trace: [
+    {
+      column: 18,
+      file: 'node:internal/vm',
+      function: 'internalCompileFunction',
+      line: 73,
+      method: null,
+      native: false
+    },
+    {
+      column: 20,
+      file: 'node:internal/modules/cjs/loader',
+      function: 'wrapSafe',
+      line: 1178,
+      method: null,
+      native: false
+    },
+    {
+      column: 27,
+      file: 'node:internal/modules/cjs/loader',
+      function: 'Module._compile',
+      line: 1220,
+      method: '_compile',
+      native: false
+    },
+    {
+      column: 10,
+      file: 'node:internal/modules/cjs/loader',
+      function: 'Module._extensions..js',
+      line: 1310,
+      method: '.js',
+      native: false
+    },
+    {
+      column: 32,
+      file: 'node:internal/modules/cjs/loader',
+      function: 'Module.load',
+      line: 1119,
+      method: 'load',
+      native: false
+    },
+    {
+      column: 12,
+      file: 'node:internal/modules/cjs/loader',
+      function: 'Module._load',
+      line: 960,
+      method: '_load',
+      native: false
+    },
+    {
+      column: 19,
+      file: 'node:internal/modules/cjs/loader',
+      function: 'Module.require',
+      line: 1143,
+      method: 'require',
+      native: false
+    },
+    {
+      column: 18,
+      file: 'node:internal/modules/cjs/helpers',
+      function: 'require',
+      line: 119,
+      method: null,
+      native: false
+    },
+    {
+      column: 23,
+      file: 'C:\\Viral\\Value At Void\\assignment - backend\\routes\\JobRoutes.js',
+      function: null,
+      line: 2,
+      method: null,
+      native: false
+    },
+    {
+      column: 14,
+      file: 'node:internal/modules/cjs/loader',
+      function: 'Module._compile',
+      line: 1256,
+      method: '_compile',
+      native: false
+    }
+  ],
+  label: 'API Logs',
+  timestamp: 'May-31-2025 16:51:14'
+}
+{
+  error: C:\Viral\Value At Void\assignment - backend\controllers\JobController.js:3
+  const Job = require("../models/Job");
+        ^
+  
+  SyntaxError: Identifier 'Job' has already been declared
+      at internalCompileFunction (node:internal/vm:73:18)
+      at wrapSafe (node:internal/modules/cjs/loader:1178:20)
+      at Module._compile (node:internal/modules/cjs/loader:1220:27)
+      at Module._extensions..js (node:internal/modules/cjs/loader:1310:10)
+      at Module.load (node:internal/modules/cjs/loader:1119:32)
+      at Module._load (node:internal/modules/cjs/loader:960:12)
+      at Module.require (node:internal/modules/cjs/loader:1143:19)
+      at require (node:internal/modules/cjs/helpers:119:18)
+      at Object.<anonymous> (C:\Viral\Value At Void\assignment - backend\routes\JobRoutes.js:2:23)
+      at Module._compile (node:internal/modules/cjs/loader:1256:14),
+  level: 'error',
+  message: "uncaughtException: Identifier 'Job' has already been declared\n" +
+    'C:\\Viral\\Value At Void\\assignment - backend\\controllers\\JobController.js:3\n' +
+    'const Job = require("../models/Job");\n' +
+    '      ^\n' +
+    '\n' +
+    "SyntaxError: Identifier 'Job' has already been declared\n" +
+    '    at internalCompileFunction (node:internal/vm:73:18)\n' +
+    '    at wrapSafe (node:internal/modules/cjs/loader:1178:20)\n' +
+    '    at Module._compile (node:internal/modules/cjs/loader:1220:27)\n' +
+    '    at Module._extensions..js (node:internal/modules/cjs/loader:1310:10)\n' +
+    '    at Module.load (node:internal/modules/cjs/loader:1119:32)\n' +
+    '    at Module._load (node:internal/modules/cjs/loader:960:12)\n' +
+    '    at Module.require (node:internal/modules/cjs/loader:1143:19)\n' +
+    '    at require (node:internal/modules/cjs/helpers:119:18)\n' +
+    '    at Object.<anonymous> (C:\\Viral\\Value At Void\\assignment - backend\\routes\\JobRoutes.js:2:23)\n' +
+    '    at Module._compile (node:internal/modules/cjs/loader:1256:14)',
+  stack: 'C:\\Viral\\Value At Void\\assignment - backend\\controllers\\JobController.js:3\n' +
+    'const Job = require("../models/Job");\n' +
+    '      ^\n' +
+    '\n' +
+    "SyntaxError: Identifier 'Job' has already been declared\n" +
+    '    at internalCompileFunction (node:internal/vm:73:18)\n' +
+    '    at wrapSafe (node:internal/modules/cjs/loader:1178:20)\n' +
+    '    at Module._compile (node:internal/modules/cjs/loader:1220:27)\n' +
+    '    at Module._extensions..js (node:internal/modules/cjs/loader:1310:10)\n' +
+    '    at Module.load (node:internal/modules/cjs/loader:1119:32)\n' +
+    '    at Module._load (node:internal/modules/cjs/loader:960:12)\n' +
+    '    at Module.require (node:internal/modules/cjs/loader:1143:19)\n' +
+    '    at require (node:internal/modules/cjs/helpers:119:18)\n' +
+    '    at Object.<anonymous> (C:\\Viral\\Value At Void\\assignment - backend\\routes\\JobRoutes.js:2:23)\n' +
+    '    at Module._compile (node:internal/modules/cjs/loader:1256:14)',
+  exception: true,
+  date: 'Sat May 31 2025 16:51:15 GMT+0530 (India Standard Time)',
+  process: {
+    pid: 60752,
+    uid: null,
+    gid: null,
+    cwd: 'C:\\Viral\\Value At Void\\assignment - backend',
+    execPath: 'C:\\Program Files\\nodejs\\node.exe',
+    version: 'v18.18.0',
+    argv: [
+      'C:\\Program Files\\nodejs\\node.exe',
+      'C:\\Viral\\Value At Void\\assignment - backend\\server.js'
+    ],
+    memoryUsage: {
+      rss: 80314368,
+      heapTotal: 37535744,
+      heapUsed: 26701344,
+      external: 20027024,
+      arrayBuffers: 19087272
+    }
+  },
+  os: { loadavg: [ 0, 0, 0 ], uptime: 8982970.062 },
+  trace: [
+    {
+      column: 18,
+      file: 'node:internal/vm',
+      function: 'internalCompileFunction',
+      line: 73,
+      method: null,
+      native: false
+    },
+    {
+      column: 20,
+      file: 'node:internal/modules/cjs/loader',
+      function: 'wrapSafe',
+      line: 1178,
+      method: null,
+      native: false
+    },
+    {
+      column: 27,
+      file: 'node:internal/modules/cjs/loader',
+      function: 'Module._compile',
+      line: 1220,
+      method: '_compile',
+      native: false
+    },
+    {
+      column: 10,
+      file: 'node:internal/modules/cjs/loader',
+      function: 'Module._extensions..js',
+      line: 1310,
+      method: '.js',
+      native: false
+    },
+    {
+      column: 32,
+      file: 'node:internal/modules/cjs/loader',
+      function: 'Module.load',
+      line: 1119,
+      method: 'load',
+      native: false
+    },
+    {
+      column: 12,
+      file: 'node:internal/modules/cjs/loader',
+      function: 'Module._load',
+      line: 960,
+      method: '_load',
+      native: false
+    },
+    {
+      column: 19,
+      file: 'node:internal/modules/cjs/loader',
+      function: 'Module.require',
+      line: 1143,
+      method: 'require',
+      native: false
+    },
+    {
+      column: 18,
+      file: 'node:internal/modules/cjs/helpers',
+      function: 'require',
+      line: 119,
+      method: null,
+      native: false
+    },
+    {
+      column: 23,
+      file: 'C:\\Viral\\Value At Void\\assignment - backend\\routes\\JobRoutes.js',
+      function: null,
+      line: 2,
+      method: null,
+      native: false
+    },
+    {
+      column: 14,
+      file: 'node:internal/modules/cjs/loader',
+      function: 'Module._compile',
+      line: 1256,
+      method: '_compile',
+      native: false
+    }
+  ],
+  label: 'API Logs',
+  timestamp: 'May-31-2025 16:51:15'
+}
+{
+  error: C:\Viral\Value At Void\assignment - backend\controllers\JobController.js:3
+  const Job = require("../models/JobState");
+        ^
+  
+  SyntaxError: Identifier 'Job' has already been declared
+      at internalCompileFunction (node:internal/vm:73:18)
+      at wrapSafe (node:internal/modules/cjs/loader:1178:20)
+      at Module._compile (node:internal/modules/cjs/loader:1220:27)
+      at Module._extensions..js (node:internal/modules/cjs/loader:1310:10)
+      at Module.load (node:internal/modules/cjs/loader:1119:32)
+      at Module._load (node:internal/modules/cjs/loader:960:12)
+      at Module.require (node:internal/modules/cjs/loader:1143:19)
+      at require (node:internal/modules/cjs/helpers:119:18)
+      at Object.<anonymous> (C:\Viral\Value At Void\assignment - backend\routes\JobRoutes.js:2:23)
+      at Module._compile (node:internal/modules/cjs/loader:1256:14),
+  level: 'error',
+  message: "uncaughtException: Identifier 'Job' has already been declared\n" +
+    'C:\\Viral\\Value At Void\\assignment - backend\\controllers\\JobController.js:3\n' +
+    'const Job = require("../models/JobState");\n' +
+    '      ^\n' +
+    '\n' +
+    "SyntaxError: Identifier 'Job' has already been declared\n" +
+    '    at internalCompileFunction (node:internal/vm:73:18)\n' +
+    '    at wrapSafe (node:internal/modules/cjs/loader:1178:20)\n' +
+    '    at Module._compile (node:internal/modules/cjs/loader:1220:27)\n' +
+    '    at Module._extensions..js (node:internal/modules/cjs/loader:1310:10)\n' +
+    '    at Module.load (node:internal/modules/cjs/loader:1119:32)\n' +
+    '    at Module._load (node:internal/modules/cjs/loader:960:12)\n' +
+    '    at Module.require (node:internal/modules/cjs/loader:1143:19)\n' +
+    '    at require (node:internal/modules/cjs/helpers:119:18)\n' +
+    '    at Object.<anonymous> (C:\\Viral\\Value At Void\\assignment - backend\\routes\\JobRoutes.js:2:23)\n' +
+    '    at Module._compile (node:internal/modules/cjs/loader:1256:14)',
+  stack: 'C:\\Viral\\Value At Void\\assignment - backend\\controllers\\JobController.js:3\n' +
+    'const Job = require("../models/JobState");\n' +
+    '      ^\n' +
+    '\n' +
+    "SyntaxError: Identifier 'Job' has already been declared\n" +
+    '    at internalCompileFunction (node:internal/vm:73:18)\n' +
+    '    at wrapSafe (node:internal/modules/cjs/loader:1178:20)\n' +
+    '    at Module._compile (node:internal/modules/cjs/loader:1220:27)\n' +
+    '    at Module._extensions..js (node:internal/modules/cjs/loader:1310:10)\n' +
+    '    at Module.load (node:internal/modules/cjs/loader:1119:32)\n' +
+    '    at Module._load (node:internal/modules/cjs/loader:960:12)\n' +
+    '    at Module.require (node:internal/modules/cjs/loader:1143:19)\n' +
+    '    at require (node:internal/modules/cjs/helpers:119:18)\n' +
+    '    at Object.<anonymous> (C:\\Viral\\Value At Void\\assignment - backend\\routes\\JobRoutes.js:2:23)\n' +
+    '    at Module._compile (node:internal/modules/cjs/loader:1256:14)',
+  exception: true,
+  date: 'Sat May 31 2025 16:51:19 GMT+0530 (India Standard Time)',
+  process: {
+    pid: 4784,
+    uid: null,
+    gid: null,
+    cwd: 'C:\\Viral\\Value At Void\\assignment - backend',
+    execPath: 'C:\\Program Files\\nodejs\\node.exe',
+    version: 'v18.18.0',
+    argv: [
+      'C:\\Program Files\\nodejs\\node.exe',
+      'C:\\Viral\\Value At Void\\assignment - backend\\server.js'
+    ],
+    memoryUsage: {
+      rss: 79990784,
+      heapTotal: 37535744,
+      heapUsed: 26708112,
+      external: 19977938,
+      arrayBuffers: 19038186
+    }
+  },
+  os: { loadavg: [ 0, 0, 0 ], uptime: 8982973.906 },
+  trace: [
+    {
+      column: 18,
+      file: 'node:internal/vm',
+      function: 'internalCompileFunction',
+      line: 73,
+      method: null,
+      native: false
+    },
+    {
+      column: 20,
+      file: 'node:internal/modules/cjs/loader',
+      function: 'wrapSafe',
+      line: 1178,
+      method: null,
+      native: false
+    },
+    {
+      column: 27,
+      file: 'node:internal/modules/cjs/loader',
+      function: 'Module._compile',
+      line: 1220,
+      method: '_compile',
+      native: false
+    },
+    {
+      column: 10,
+      file: 'node:internal/modules/cjs/loader',
+      function: 'Module._extensions..js',
+      line: 1310,
+      method: '.js',
+      native: false
+    },
+    {
+      column: 32,
+      file: 'node:internal/modules/cjs/loader',
+      function: 'Module.load',
+      line: 1119,
+      method: 'load',
+      native: false
+    },
+    {
+      column: 12,
+      file: 'node:internal/modules/cjs/loader',
+      function: 'Module._load',
+      line: 960,
+      method: '_load',
+      native: false
+    },
+    {
+      column: 19,
+      file: 'node:internal/modules/cjs/loader',
+      function: 'Module.require',
+      line: 1143,
+      method: 'require',
+      native: false
+    },
+    {
+      column: 18,
+      file: 'node:internal/modules/cjs/helpers',
+      function: 'require',
+      line: 119,
+      method: null,
+      native: false
+    },
+    {
+      column: 23,
+      file: 'C:\\Viral\\Value At Void\\assignment - backend\\routes\\JobRoutes.js',
+      function: null,
+      line: 2,
+      method: null,
+      native: false
+    },
+    {
+      column: 14,
+      file: 'node:internal/modules/cjs/loader',
+      function: 'Module._compile',
+      line: 1256,
+      method: '_compile',
+      native: false
+    }
+  ],
+  label: 'API Logs',
+  timestamp: 'May-31-2025 16:51:19'
+}
+{
+  error: Error: Cannot find module '../models/JobState'
+  Require stack:
+  - C:\Viral\Value At Void\assignment - backend\controllers\JobController.js
+  - C:\Viral\Value At Void\assignment - backend\routes\JobRoutes.js
+  - C:\Viral\Value At Void\assignment - backend\server.js
+      at Module._resolveFilename (node:internal/modules/cjs/loader:1077:15)
+      at Module._load (node:internal/modules/cjs/loader:922:27)
+      at Module.require (node:internal/modules/cjs/loader:1143:19)
+      at require (node:internal/modules/cjs/helpers:119:18)
+      at Object.<anonymous> (C:\Viral\Value At Void\assignment - backend\controllers\JobController.js:3:18)
+      at Module._compile (node:internal/modules/cjs/loader:1256:14)
+      at Module._extensions..js (node:internal/modules/cjs/loader:1310:10)
+      at Module.load (node:internal/modules/cjs/loader:1119:32)
+      at Module._load (node:internal/modules/cjs/loader:960:12)
+      at Module.require (node:internal/modules/cjs/loader:1143:19) {
+    code: 'MODULE_NOT_FOUND',
+    requireStack: [
+      'C:\\Viral\\Value At Void\\assignment - backend\\controllers\\JobController.js',
+      'C:\\Viral\\Value At Void\\assignment - backend\\routes\\JobRoutes.js',
+      'C:\\Viral\\Value At Void\\assignment - backend\\server.js'
+    ]
+  },
+  level: 'error',
+  message: "uncaughtException: Cannot find module '../models/JobState'\n" +
+    'Require stack:\n' +
+    '- C:\\Viral\\Value At Void\\assignment - backend\\controllers\\JobController.js\n' +
+    '- C:\\Viral\\Value At Void\\assignment - backend\\routes\\JobRoutes.js\n' +
+    '- C:\\Viral\\Value At Void\\assignment - backend\\server.js\n' +
+    "Error: Cannot find module '../models/JobState'\n" +
+    'Require stack:\n' +
+    '- C:\\Viral\\Value At Void\\assignment - backend\\controllers\\JobController.js\n' +
+    '- C:\\Viral\\Value At Void\\assignment - backend\\routes\\JobRoutes.js\n' +
+    '- C:\\Viral\\Value At Void\\assignment - backend\\server.js\n' +
+    '    at Module._resolveFilename (node:internal/modules/cjs/loader:1077:15)\n' +
+    '    at Module._load (node:internal/modules/cjs/loader:922:27)\n' +
+    '    at Module.require (node:internal/modules/cjs/loader:1143:19)\n' +
+    '    at require (node:internal/modules/cjs/helpers:119:18)\n' +
+    '    at Object.<anonymous> (C:\\Viral\\Value At Void\\assignment - backend\\controllers\\JobController.js:3:18)\n' +
+    '    at Module._compile (node:internal/modules/cjs/loader:1256:14)\n' +
+    '    at Module._extensions..js (node:internal/modules/cjs/loader:1310:10)\n' +
+    '    at Module.load (node:internal/modules/cjs/loader:1119:32)\n' +
+    '    at Module._load (node:internal/modules/cjs/loader:960:12)\n' +
+    '    at Module.require (node:internal/modules/cjs/loader:1143:19)',
+  stack: "Error: Cannot find module '../models/JobState'\n" +
+    'Require stack:\n' +
+    '- C:\\Viral\\Value At Void\\assignment - backend\\controllers\\JobController.js\n' +
+    '- C:\\Viral\\Value At Void\\assignment - backend\\routes\\JobRoutes.js\n' +
+    '- C:\\Viral\\Value At Void\\assignment - backend\\server.js\n' +
+    '    at Module._resolveFilename (node:internal/modules/cjs/loader:1077:15)\n' +
+    '    at Module._load (node:internal/modules/cjs/loader:922:27)\n' +
+    '    at Module.require (node:internal/modules/cjs/loader:1143:19)\n' +
+    '    at require (node:internal/modules/cjs/helpers:119:18)\n' +
+    '    at Object.<anonymous> (C:\\Viral\\Value At Void\\assignment - backend\\controllers\\JobController.js:3:18)\n' +
+    '    at Module._compile (node:internal/modules/cjs/loader:1256:14)\n' +
+    '    at Module._extensions..js (node:internal/modules/cjs/loader:1310:10)\n' +
+    '    at Module.load (node:internal/modules/cjs/loader:1119:32)\n' +
+    '    at Module._load (node:internal/modules/cjs/loader:960:12)\n' +
+    '    at Module.require (node:internal/modules/cjs/loader:1143:19)',
+  exception: true,
+  date: 'Sat May 31 2025 16:53:21 GMT+0530 (India Standard Time)',
+  process: {
+    pid: 9816,
+    uid: null,
+    gid: null,
+    cwd: 'C:\\Viral\\Value At Void\\assignment - backend',
+    execPath: 'C:\\Program Files\\nodejs\\node.exe',
+    version: 'v18.18.0',
+    argv: [
+      'C:\\Program Files\\nodejs\\node.exe',
+      'C:\\Viral\\Value At Void\\assignment - backend\\server.js'
+    ],
+    memoryUsage: {
+      rss: 79114240,
+      heapTotal: 37535744,
+      heapUsed: 27162320,
+      external: 19948990,
+      arrayBuffers: 19009238
+    }
+  },
+  os: { loadavg: [ 0, 0, 0 ], uptime: 8983096.156 },
+  trace: [
+    {
+      column: 15,
+      file: 'node:internal/modules/cjs/loader',
+      function: 'Module._resolveFilename',
+      line: 1077,
+      method: '_resolveFilename',
+      native: false
+    },
+    {
+      column: 27,
+      file: 'node:internal/modules/cjs/loader',
+      function: 'Module._load',
+      line: 922,
+      method: '_load',
+      native: false
+    },
+    {
+      column: 19,
+      file: 'node:internal/modules/cjs/loader',
+      function: 'Module.require',
+      line: 1143,
+      method: 'require',
+      native: false
+    },
+    {
+      column: 18,
+      file: 'node:internal/modules/cjs/helpers',
+      function: 'require',
+      line: 119,
+      method: null,
+      native: false
+    },
+    {
+      column: 18,
+      file: 'C:\\Viral\\Value At Void\\assignment - backend\\controllers\\JobController.js',
+      function: null,
+      line: 3,
+      method: null,
+      native: false
+    },
+    {
+      column: 14,
+      file: 'node:internal/modules/cjs/loader',
+      function: 'Module._compile',
+      line: 1256,
+      method: '_compile',
+      native: false
+    },
+    {
+      column: 10,
+      file: 'node:internal/modules/cjs/loader',
+      function: 'Module._extensions..js',
+      line: 1310,
+      method: '.js',
+      native: false
+    },
+    {
+      column: 32,
+      file: 'node:internal/modules/cjs/loader',
+      function: 'Module.load',
+      line: 1119,
+      method: 'load',
+      native: false
+    },
+    {
+      column: 12,
+      file: 'node:internal/modules/cjs/loader',
+      function: 'Module._load',
+      line: 960,
+      method: '_load',
+      native: false
+    },
+    {
+      column: 19,
+      file: 'node:internal/modules/cjs/loader',
+      function: 'Module.require',
+      line: 1143,
+      method: 'require',
+      native: false
+    }
+  ],
+  label: 'API Logs',
+  timestamp: 'May-31-2025 16:53:21'
+}
+{
+  error: ReferenceError: string is not defined
+      at Object.<anonymous> (C:\Viral\Value At Void\assignment - backend\models\Job.js:22:19)
+      at Module._compile (node:internal/modules/cjs/loader:1256:14)
+      at Module._extensions..js (node:internal/modules/cjs/loader:1310:10)
+      at Module.load (node:internal/modules/cjs/loader:1119:32)
+      at Module._load (node:internal/modules/cjs/loader:960:12)
+      at Module.require (node:internal/modules/cjs/loader:1143:19)
+      at require (node:internal/modules/cjs/helpers:119:18)
+      at Object.<anonymous> (C:\Viral\Value At Void\assignment - backend\controllers\JobController.js:2:13)
+      at Module._compile (node:internal/modules/cjs/loader:1256:14)
+      at Module._extensions..js (node:internal/modules/cjs/loader:1310:10),
+  level: 'error',
+  message: 'uncaughtException: string is not defined\n' +
+    'ReferenceError: string is not defined\n' +
+    '    at Object.<anonymous> (C:\\Viral\\Value At Void\\assignment - backend\\models\\Job.js:22:19)\n' +
+    '    at Module._compile (node:internal/modules/cjs/loader:1256:14)\n' +
+    '    at Module._extensions..js (node:internal/modules/cjs/loader:1310:10)\n' +
+    '    at Module.load (node:internal/modules/cjs/loader:1119:32)\n' +
+    '    at Module._load (node:internal/modules/cjs/loader:960:12)\n' +
+    '    at Module.require (node:internal/modules/cjs/loader:1143:19)\n' +
+    '    at require (node:internal/modules/cjs/helpers:119:18)\n' +
+    '    at Object.<anonymous> (C:\\Viral\\Value At Void\\assignment - backend\\controllers\\JobController.js:2:13)\n' +
+    '    at Module._compile (node:internal/modules/cjs/loader:1256:14)\n' +
+    '    at Module._extensions..js (node:internal/modules/cjs/loader:1310:10)',
+  stack: 'ReferenceError: string is not defined\n' +
+    '    at Object.<anonymous> (C:\\Viral\\Value At Void\\assignment - backend\\models\\Job.js:22:19)\n' +
+    '    at Module._compile (node:internal/modules/cjs/loader:1256:14)\n' +
+    '    at Module._extensions..js (node:internal/modules/cjs/loader:1310:10)\n' +
+    '    at Module.load (node:internal/modules/cjs/loader:1119:32)\n' +
+    '    at Module._load (node:internal/modules/cjs/loader:960:12)\n' +
+    '    at Module.require (node:internal/modules/cjs/loader:1143:19)\n' +
+    '    at require (node:internal/modules/cjs/helpers:119:18)\n' +
+    '    at Object.<anonymous> (C:\\Viral\\Value At Void\\assignment - backend\\controllers\\JobController.js:2:13)\n' +
+    '    at Module._compile (node:internal/modules/cjs/loader:1256:14)\n' +
+    '    at Module._extensions..js (node:internal/modules/cjs/loader:1310:10)',
+  exception: true,
+  date: 'Sat May 31 2025 16:54:14 GMT+0530 (India Standard Time)',
+  process: {
+    pid: 70848,
+    uid: null,
+    gid: null,
+    cwd: 'C:\\Viral\\Value At Void\\assignment - backend',
+    execPath: 'C:\\Program Files\\nodejs\\node.exe',
+    version: 'v18.18.0',
+    argv: [
+      'C:\\Program Files\\nodejs\\node.exe',
+      'C:\\Viral\\Value At Void\\assignment - backend\\server.js'
+    ],
+    memoryUsage: {
+      rss: 80486400,
+      heapTotal: 37535744,
+      heapUsed: 26986408,
+      external: 19940798,
+      arrayBuffers: 19001046
+    }
+  },
+  os: { loadavg: [ 0, 0, 0 ], uptime: 8983149.281 },
+  trace: [
+    {
+      column: 19,
+      file: 'C:\\Viral\\Value At Void\\assignment - backend\\models\\Job.js',
+      function: null,
+      line: 22,
+      method: null,
+      native: false
+    },
+    {
+      column: 14,
+      file: 'node:internal/modules/cjs/loader',
+      function: 'Module._compile',
+      line: 1256,
+      method: '_compile',
+      native: false
+    },
+    {
+      column: 10,
+      file: 'node:internal/modules/cjs/loader',
+      function: 'Module._extensions..js',
+      line: 1310,
+      method: '.js',
+      native: false
+    },
+    {
+      column: 32,
+      file: 'node:internal/modules/cjs/loader',
+      function: 'Module.load',
+      line: 1119,
+      method: 'load',
+      native: false
+    },
+    {
+      column: 12,
+      file: 'node:internal/modules/cjs/loader',
+      function: 'Module._load',
+      line: 960,
+      method: '_load',
+      native: false
+    },
+    {
+      column: 19,
+      file: 'node:internal/modules/cjs/loader',
+      function: 'Module.require',
+      line: 1143,
+      method: 'require',
+      native: false
+    },
+    {
+      column: 18,
+      file: 'node:internal/modules/cjs/helpers',
+      function: 'require',
+      line: 119,
+      method: null,
+      native: false
+    },
+    {
+      column: 13,
+      file: 'C:\\Viral\\Value At Void\\assignment - backend\\controllers\\JobController.js',
+      function: null,
+      line: 2,
+      method: null,
+      native: false
+    },
+    {
+      column: 14,
+      file: 'node:internal/modules/cjs/loader',
+      function: 'Module._compile',
+      line: 1256,
+      method: '_compile',
+      native: false
+    },
+    {
+      column: 10,
+      file: 'node:internal/modules/cjs/loader',
+      function: 'Module._extensions..js',
+      line: 1310,
+      method: '.js',
+      native: false
+    }
+  ],
+  label: 'API Logs',
+  timestamp: 'May-31-2025 16:54:14'
+}
+{
+  error: ReferenceError: string is not defined
+      at Object.<anonymous> (C:\Viral\Value At Void\assignment - backend\models\Job.js:22:19)
+      at Module._compile (node:internal/modules/cjs/loader:1256:14)
+      at Module._extensions..js (node:internal/modules/cjs/loader:1310:10)
+      at Module.load (node:internal/modules/cjs/loader:1119:32)
+      at Module._load (node:internal/modules/cjs/loader:960:12)
+      at Module.require (node:internal/modules/cjs/loader:1143:19)
+      at require (node:internal/modules/cjs/helpers:119:18)
+      at Object.<anonymous> (C:\Viral\Value At Void\assignment - backend\controllers\JobController.js:2:13)
+      at Module._compile (node:internal/modules/cjs/loader:1256:14)
+      at Module._extensions..js (node:internal/modules/cjs/loader:1310:10),
+  level: 'error',
+  message: 'uncaughtException: string is not defined\n' +
+    'ReferenceError: string is not defined\n' +
+    '    at Object.<anonymous> (C:\\Viral\\Value At Void\\assignment - backend\\models\\Job.js:22:19)\n' +
+    '    at Module._compile (node:internal/modules/cjs/loader:1256:14)\n' +
+    '    at Module._extensions..js (node:internal/modules/cjs/loader:1310:10)\n' +
+    '    at Module.load (node:internal/modules/cjs/loader:1119:32)\n' +
+    '    at Module._load (node:internal/modules/cjs/loader:960:12)\n' +
+    '    at Module.require (node:internal/modules/cjs/loader:1143:19)\n' +
+    '    at require (node:internal/modules/cjs/helpers:119:18)\n' +
+    '    at Object.<anonymous> (C:\\Viral\\Value At Void\\assignment - backend\\controllers\\JobController.js:2:13)\n' +
+    '    at Module._compile (node:internal/modules/cjs/loader:1256:14)\n' +
+    '    at Module._extensions..js (node:internal/modules/cjs/loader:1310:10)',
+  stack: 'ReferenceError: string is not defined\n' +
+    '    at Object.<anonymous> (C:\\Viral\\Value At Void\\assignment - backend\\models\\Job.js:22:19)\n' +
+    '    at Module._compile (node:internal/modules/cjs/loader:1256:14)\n' +
+    '    at Module._extensions..js (node:internal/modules/cjs/loader:1310:10)\n' +
+    '    at Module.load (node:internal/modules/cjs/loader:1119:32)\n' +
+    '    at Module._load (node:internal/modules/cjs/loader:960:12)\n' +
+    '    at Module.require (node:internal/modules/cjs/loader:1143:19)\n' +
+    '    at require (node:internal/modules/cjs/helpers:119:18)\n' +
+    '    at Object.<anonymous> (C:\\Viral\\Value At Void\\assignment - backend\\controllers\\JobController.js:2:13)\n' +
+    '    at Module._compile (node:internal/modules/cjs/loader:1256:14)\n' +
+    '    at Module._extensions..js (node:internal/modules/cjs/loader:1310:10)',
+  exception: true,
+  date: 'Sat May 31 2025 16:54:19 GMT+0530 (India Standard Time)',
+  process: {
+    pid: 33808,
+    uid: null,
+    gid: null,
+    cwd: 'C:\\Viral\\Value At Void\\assignment - backend',
+    execPath: 'C:\\Program Files\\nodejs\\node.exe',
+    version: 'v18.18.0',
+    argv: [
+      'C:\\Program Files\\nodejs\\node.exe',
+      'C:\\Viral\\Value At Void\\assignment - backend\\server.js'
+    ],
+    memoryUsage: {
+      rss: 79831040,
+      heapTotal: 37535744,
+      heapUsed: 26797728,
+      external: 19977938,
+      arrayBuffers: 19038186
+    }
+  },
+  os: { loadavg: [ 0, 0, 0 ], uptime: 8983153.781 },
+  trace: [
+    {
+      column: 19,
+      file: 'C:\\Viral\\Value At Void\\assignment - backend\\models\\Job.js',
+      function: null,
+      line: 22,
+      method: null,
+      native: false
+    },
+    {
+      column: 14,
+      file: 'node:internal/modules/cjs/loader',
+      function: 'Module._compile',
+      line: 1256,
+      method: '_compile',
+      native: false
+    },
+    {
+      column: 10,
+      file: 'node:internal/modules/cjs/loader',
+      function: 'Module._extensions..js',
+      line: 1310,
+      method: '.js',
+      native: false
+    },
+    {
+      column: 32,
+      file: 'node:internal/modules/cjs/loader',
+      function: 'Module.load',
+      line: 1119,
+      method: 'load',
+      native: false
+    },
+    {
+      column: 12,
+      file: 'node:internal/modules/cjs/loader',
+      function: 'Module._load',
+      line: 960,
+      method: '_load',
+      native: false
+    },
+    {
+      column: 19,
+      file: 'node:internal/modules/cjs/loader',
+      function: 'Module.require',
+      line: 1143,
+      method: 'require',
+      native: false
+    },
+    {
+      column: 18,
+      file: 'node:internal/modules/cjs/helpers',
+      function: 'require',
+      line: 119,
+      method: null,
+      native: false
+    },
+    {
+      column: 13,
+      file: 'C:\\Viral\\Value At Void\\assignment - backend\\controllers\\JobController.js',
+      function: null,
+      line: 2,
+      method: null,
+      native: false
+    },
+    {
+      column: 14,
+      file: 'node:internal/modules/cjs/loader',
+      function: 'Module._compile',
+      line: 1256,
+      method: '_compile',
+      native: false
+    },
+    {
+      column: 10,
+      file: 'node:internal/modules/cjs/loader',
+      function: 'Module._extensions..js',
+      line: 1310,
+      method: '.js',
+      native: false
+    }
+  ],
+  label: 'API Logs',
+  timestamp: 'May-31-2025 16:54:19'
+}
+{
+  error: C:\Viral\Value At Void\assignment - backend\controllers\JobController.js:59
+  export.getJobStats = async (req, res) => {
+  ^^^^^^
+  
+  SyntaxError: Unexpected token 'export'
+      at internalCompileFunction (node:internal/vm:73:18)
+      at wrapSafe (node:internal/modules/cjs/loader:1178:20)
+      at Module._compile (node:internal/modules/cjs/loader:1220:27)
+      at Module._extensions..js (node:internal/modules/cjs/loader:1310:10)
+      at Module.load (node:internal/modules/cjs/loader:1119:32)
+      at Module._load (node:internal/modules/cjs/loader:960:12)
+      at Module.require (node:internal/modules/cjs/loader:1143:19)
+      at require (node:internal/modules/cjs/helpers:119:18)
+      at Object.<anonymous> (C:\Viral\Value At Void\assignment - backend\routes\JobRoutes.js:2:23)
+      at Module._compile (node:internal/modules/cjs/loader:1256:14),
+  level: 'error',
+  message: "uncaughtException: Unexpected token 'export'\n" +
+    'C:\\Viral\\Value At Void\\assignment - backend\\controllers\\JobController.js:59\n' +
+    'export.getJobStats = async (req, res) => {\n' +
+    '^^^^^^\n' +
+    '\n' +
+    "SyntaxError: Unexpected token 'export'\n" +
+    '    at internalCompileFunction (node:internal/vm:73:18)\n' +
+    '    at wrapSafe (node:internal/modules/cjs/loader:1178:20)\n' +
+    '    at Module._compile (node:internal/modules/cjs/loader:1220:27)\n' +
+    '    at Module._extensions..js (node:internal/modules/cjs/loader:1310:10)\n' +
+    '    at Module.load (node:internal/modules/cjs/loader:1119:32)\n' +
+    '    at Module._load (node:internal/modules/cjs/loader:960:12)\n' +
+    '    at Module.require (node:internal/modules/cjs/loader:1143:19)\n' +
+    '    at require (node:internal/modules/cjs/helpers:119:18)\n' +
+    '    at Object.<anonymous> (C:\\Viral\\Value At Void\\assignment - backend\\routes\\JobRoutes.js:2:23)\n' +
+    '    at Module._compile (node:internal/modules/cjs/loader:1256:14)',
+  stack: 'C:\\Viral\\Value At Void\\assignment - backend\\controllers\\JobController.js:59\n' +
+    'export.getJobStats = async (req, res) => {\n' +
+    '^^^^^^\n' +
+    '\n' +
+    "SyntaxError: Unexpected token 'export'\n" +
+    '    at internalCompileFunction (node:internal/vm:73:18)\n' +
+    '    at wrapSafe (node:internal/modules/cjs/loader:1178:20)\n' +
+    '    at Module._compile (node:internal/modules/cjs/loader:1220:27)\n' +
+    '    at Module._extensions..js (node:internal/modules/cjs/loader:1310:10)\n' +
+    '    at Module.load (node:internal/modules/cjs/loader:1119:32)\n' +
+    '    at Module._load (node:internal/modules/cjs/loader:960:12)\n' +
+    '    at Module.require (node:internal/modules/cjs/loader:1143:19)\n' +
+    '    at require (node:internal/modules/cjs/helpers:119:18)\n' +
+    '    at Object.<anonymous> (C:\\Viral\\Value At Void\\assignment - backend\\routes\\JobRoutes.js:2:23)\n' +
+    '    at Module._compile (node:internal/modules/cjs/loader:1256:14)',
+  exception: true,
+  date: 'Sat May 31 2025 16:55:47 GMT+0530 (India Standard Time)',
+  process: {
+    pid: 61968,
+    uid: null,
+    gid: null,
+    cwd: 'C:\\Viral\\Value At Void\\assignment - backend',
+    execPath: 'C:\\Program Files\\nodejs\\node.exe',
+    version: 'v18.18.0',
+    argv: [
+      'C:\\Program Files\\nodejs\\node.exe',
+      'C:\\Viral\\Value At Void\\assignment - backend\\server.js'
+    ],
+    memoryUsage: {
+      rss: 81403904,
+      heapTotal: 37535744,
+      heapUsed: 26894440,
+      external: 19948990,
+      arrayBuffers: 19009238
+    }
+  },
+  os: { loadavg: [ 0, 0, 0 ], uptime: 8983242.125 },
+  trace: [
+    {
+      column: 18,
+      file: 'node:internal/vm',
+      function: 'internalCompileFunction',
+      line: 73,
+      method: null,
+      native: false
+    },
+    {
+      column: 20,
+      file: 'node:internal/modules/cjs/loader',
+      function: 'wrapSafe',
+      line: 1178,
+      method: null,
+      native: false
+    },
+    {
+      column: 27,
+      file: 'node:internal/modules/cjs/loader',
+      function: 'Module._compile',
+      line: 1220,
+      method: '_compile',
+      native: false
+    },
+    {
+      column: 10,
+      file: 'node:internal/modules/cjs/loader',
+      function: 'Module._extensions..js',
+      line: 1310,
+      method: '.js',
+      native: false
+    },
+    {
+      column: 32,
+      file: 'node:internal/modules/cjs/loader',
+      function: 'Module.load',
+      line: 1119,
+      method: 'load',
+      native: false
+    },
+    {
+      column: 12,
+      file: 'node:internal/modules/cjs/loader',
+      function: 'Module._load',
+      line: 960,
+      method: '_load',
+      native: false
+    },
+    {
+      column: 19,
+      file: 'node:internal/modules/cjs/loader',
+      function: 'Module.require',
+      line: 1143,
+      method: 'require',
+      native: false
+    },
+    {
+      column: 18,
+      file: 'node:internal/modules/cjs/helpers',
+      function: 'require',
+      line: 119,
+      method: null,
+      native: false
+    },
+    {
+      column: 23,
+      file: 'C:\\Viral\\Value At Void\\assignment - backend\\routes\\JobRoutes.js',
+      function: null,
+      line: 2,
+      method: null,
+      native: false
+    },
+    {
+      column: 14,
+      file: 'node:internal/modules/cjs/loader',
+      function: 'Module._compile',
+      line: 1256,
+      method: '_compile',
+      native: false
+    }
+  ],
+  label: 'API Logs',
+  timestamp: 'May-31-2025 16:55:47'
+}
+{
+  error: C:\Viral\Value At Void\assignment - backend\controllers\JobController.js:59
+  export.getJobStats = async (req, res) => {
+  ^^^^^^
+  
+  SyntaxError: Unexpected token 'export'
+      at internalCompileFunction (node:internal/vm:73:18)
+      at wrapSafe (node:internal/modules/cjs/loader:1178:20)
+      at Module._compile (node:internal/modules/cjs/loader:1220:27)
+      at Module._extensions..js (node:internal/modules/cjs/loader:1310:10)
+      at Module.load (node:internal/modules/cjs/loader:1119:32)
+      at Module._load (node:internal/modules/cjs/loader:960:12)
+      at Module.require (node:internal/modules/cjs/loader:1143:19)
+      at require (node:internal/modules/cjs/helpers:119:18)
+      at Object.<anonymous> (C:\Viral\Value At Void\assignment - backend\routes\JobRoutes.js:2:23)
+      at Module._compile (node:internal/modules/cjs/loader:1256:14),
+  level: 'error',
+  message: "uncaughtException: Unexpected token 'export'\n" +
+    'C:\\Viral\\Value At Void\\assignment - backend\\controllers\\JobController.js:59\n' +
+    'export.getJobStats = async (req, res) => {\n' +
+    '^^^^^^\n' +
+    '\n' +
+    "SyntaxError: Unexpected token 'export'\n" +
+    '    at internalCompileFunction (node:internal/vm:73:18)\n' +
+    '    at wrapSafe (node:internal/modules/cjs/loader:1178:20)\n' +
+    '    at Module._compile (node:internal/modules/cjs/loader:1220:27)\n' +
+    '    at Module._extensions..js (node:internal/modules/cjs/loader:1310:10)\n' +
+    '    at Module.load (node:internal/modules/cjs/loader:1119:32)\n' +
+    '    at Module._load (node:internal/modules/cjs/loader:960:12)\n' +
+    '    at Module.require (node:internal/modules/cjs/loader:1143:19)\n' +
+    '    at require (node:internal/modules/cjs/helpers:119:18)\n' +
+    '    at Object.<anonymous> (C:\\Viral\\Value At Void\\assignment - backend\\routes\\JobRoutes.js:2:23)\n' +
+    '    at Module._compile (node:internal/modules/cjs/loader:1256:14)',
+  stack: 'C:\\Viral\\Value At Void\\assignment - backend\\controllers\\JobController.js:59\n' +
+    'export.getJobStats = async (req, res) => {\n' +
+    '^^^^^^\n' +
+    '\n' +
+    "SyntaxError: Unexpected token 'export'\n" +
+    '    at internalCompileFunction (node:internal/vm:73:18)\n' +
+    '    at wrapSafe (node:internal/modules/cjs/loader:1178:20)\n' +
+    '    at Module._compile (node:internal/modules/cjs/loader:1220:27)\n' +
+    '    at Module._extensions..js (node:internal/modules/cjs/loader:1310:10)\n' +
+    '    at Module.load (node:internal/modules/cjs/loader:1119:32)\n' +
+    '    at Module._load (node:internal/modules/cjs/loader:960:12)\n' +
+    '    at Module.require (node:internal/modules/cjs/loader:1143:19)\n' +
+    '    at require (node:internal/modules/cjs/helpers:119:18)\n' +
+    '    at Object.<anonymous> (C:\\Viral\\Value At Void\\assignment - backend\\routes\\JobRoutes.js:2:23)\n' +
+    '    at Module._compile (node:internal/modules/cjs/loader:1256:14)',
+  exception: true,
+  date: 'Sat May 31 2025 16:55:48 GMT+0530 (India Standard Time)',
+  process: {
+    pid: 50764,
+    uid: null,
+    gid: null,
+    cwd: 'C:\\Viral\\Value At Void\\assignment - backend',
+    execPath: 'C:\\Program Files\\nodejs\\node.exe',
+    version: 'v18.18.0',
+    argv: [
+      'C:\\Program Files\\nodejs\\node.exe',
+      'C:\\Viral\\Value At Void\\assignment - backend\\server.js'
+    ],
+    memoryUsage: {
+      rss: 80429056,
+      heapTotal: 37535744,
+      heapUsed: 26903776,
+      external: 19940798,
+      arrayBuffers: 19001046
+    }
+  },
+  os: { loadavg: [ 0, 0, 0 ], uptime: 8983243.203 },
+  trace: [
+    {
+      column: 18,
+      file: 'node:internal/vm',
+      function: 'internalCompileFunction',
+      line: 73,
+      method: null,
+      native: false
+    },
+    {
+      column: 20,
+      file: 'node:internal/modules/cjs/loader',
+      function: 'wrapSafe',
+      line: 1178,
+      method: null,
+      native: false
+    },
+    {
+      column: 27,
+      file: 'node:internal/modules/cjs/loader',
+      function: 'Module._compile',
+      line: 1220,
+      method: '_compile',
+      native: false
+    },
+    {
+      column: 10,
+      file: 'node:internal/modules/cjs/loader',
+      function: 'Module._extensions..js',
+      line: 1310,
+      method: '.js',
+      native: false
+    },
+    {
+      column: 32,
+      file: 'node:internal/modules/cjs/loader',
+      function: 'Module.load',
+      line: 1119,
+      method: 'load',
+      native: false
+    },
+    {
+      column: 12,
+      file: 'node:internal/modules/cjs/loader',
+      function: 'Module._load',
+      line: 960,
+      method: '_load',
+      native: false
+    },
+    {
+      column: 19,
+      file: 'node:internal/modules/cjs/loader',
+      function: 'Module.require',
+      line: 1143,
+      method: 'require',
+      native: false
+    },
+    {
+      column: 18,
+      file: 'node:internal/modules/cjs/helpers',
+      function: 'require',
+      line: 119,
+      method: null,
+      native: false
+    },
+    {
+      column: 23,
+      file: 'C:\\Viral\\Value At Void\\assignment - backend\\routes\\JobRoutes.js',
+      function: null,
+      line: 2,
+      method: null,
+      native: false
+    },
+    {
+      column: 14,
+      file: 'node:internal/modules/cjs/loader',
+      function: 'Module._compile',
+      line: 1256,
+      method: '_compile',
+      native: false
+    }
+  ],
+  label: 'API Logs',
+  timestamp: 'May-31-2025 16:55:48'
+}
+{
+  error: ReferenceError: getJobStats is not defined
+      at Object.<anonymous> (C:\Viral\Value At Void\assignment - backend\routes\JobRoutes.js:20:22)
+      at Module._compile (node:internal/modules/cjs/loader:1256:14)
+      at Module._extensions..js (node:internal/modules/cjs/loader:1310:10)
+      at Module.load (node:internal/modules/cjs/loader:1119:32)
+      at Module._load (node:internal/modules/cjs/loader:960:12)
+      at Module.require (node:internal/modules/cjs/loader:1143:19)
+      at require (node:internal/modules/cjs/helpers:119:18)
+      at Object.<anonymous> (C:\Viral\Value At Void\assignment - backend\server.js:11:20)
+      at Module._compile (node:internal/modules/cjs/loader:1256:14)
+      at Module._extensions..js (node:internal/modules/cjs/loader:1310:10),
+  level: 'error',
+  message: 'uncaughtException: getJobStats is not defined\n' +
+    'ReferenceError: getJobStats is not defined\n' +
+    '    at Object.<anonymous> (C:\\Viral\\Value At Void\\assignment - backend\\routes\\JobRoutes.js:20:22)\n' +
+    '    at Module._compile (node:internal/modules/cjs/loader:1256:14)\n' +
+    '    at Module._extensions..js (node:internal/modules/cjs/loader:1310:10)\n' +
+    '    at Module.load (node:internal/modules/cjs/loader:1119:32)\n' +
+    '    at Module._load (node:internal/modules/cjs/loader:960:12)\n' +
+    '    at Module.require (node:internal/modules/cjs/loader:1143:19)\n' +
+    '    at require (node:internal/modules/cjs/helpers:119:18)\n' +
+    '    at Object.<anonymous> (C:\\Viral\\Value At Void\\assignment - backend\\server.js:11:20)\n' +
+    '    at Module._compile (node:internal/modules/cjs/loader:1256:14)\n' +
+    '    at Module._extensions..js (node:internal/modules/cjs/loader:1310:10)',
+  stack: 'ReferenceError: getJobStats is not defined\n' +
+    '    at Object.<anonymous> (C:\\Viral\\Value At Void\\assignment - backend\\routes\\JobRoutes.js:20:22)\n' +
+    '    at Module._compile (node:internal/modules/cjs/loader:1256:14)\n' +
+    '    at Module._extensions..js (node:internal/modules/cjs/loader:1310:10)\n' +
+    '    at Module.load (node:internal/modules/cjs/loader:1119:32)\n' +
+    '    at Module._load (node:internal/modules/cjs/loader:960:12)\n' +
+    '    at Module.require (node:internal/modules/cjs/loader:1143:19)\n' +
+    '    at require (node:internal/modules/cjs/helpers:119:18)\n' +
+    '    at Object.<anonymous> (C:\\Viral\\Value At Void\\assignment - backend\\server.js:11:20)\n' +
+    '    at Module._compile (node:internal/modules/cjs/loader:1256:14)\n' +
+    '    at Module._extensions..js (node:internal/modules/cjs/loader:1310:10)',
+  exception: true,
+  date: 'Sat May 31 2025 16:56:17 GMT+0530 (India Standard Time)',
+  process: {
+    pid: 15456,
+    uid: null,
+    gid: null,
+    cwd: 'C:\\Viral\\Value At Void\\assignment - backend',
+    execPath: 'C:\\Program Files\\nodejs\\node.exe',
+    version: 'v18.18.0',
+    argv: [
+      'C:\\Program Files\\nodejs\\node.exe',
+      'C:\\Viral\\Value At Void\\assignment - backend\\server.js'
+    ],
+    memoryUsage: {
+      rss: 81485824,
+      heapTotal: 40706048,
+      heapUsed: 30597776,
+      external: 19727844,
+      arrayBuffers: 18788092
+    }
+  },
+  os: { loadavg: [ 0, 0, 0 ], uptime: 8983271.671 },
+  trace: [
+    {
+      column: 22,
+      file: 'C:\\Viral\\Value At Void\\assignment - backend\\routes\\JobRoutes.js',
+      function: null,
+      line: 20,
+      method: null,
+      native: false
+    },
+    {
+      column: 14,
+      file: 'node:internal/modules/cjs/loader',
+      function: 'Module._compile',
+      line: 1256,
+      method: '_compile',
+      native: false
+    },
+    {
+      column: 10,
+      file: 'node:internal/modules/cjs/loader',
+      function: 'Module._extensions..js',
+      line: 1310,
+      method: '.js',
+      native: false
+    },
+    {
+      column: 32,
+      file: 'node:internal/modules/cjs/loader',
+      function: 'Module.load',
+      line: 1119,
+      method: 'load',
+      native: false
+    },
+    {
+      column: 12,
+      file: 'node:internal/modules/cjs/loader',
+      function: 'Module._load',
+      line: 960,
+      method: '_load',
+      native: false
+    },
+    {
+      column: 19,
+      file: 'node:internal/modules/cjs/loader',
+      function: 'Module.require',
+      line: 1143,
+      method: 'require',
+      native: false
+    },
+    {
+      column: 18,
+      file: 'node:internal/modules/cjs/helpers',
+      function: 'require',
+      line: 119,
+      method: null,
+      native: false
+    },
+    {
+      column: 20,
+      file: 'C:\\Viral\\Value At Void\\assignment - backend\\server.js',
+      function: null,
+      line: 11,
+      method: null,
+      native: false
+    },
+    {
+      column: 14,
+      file: 'node:internal/modules/cjs/loader',
+      function: 'Module._compile',
+      line: 1256,
+      method: '_compile',
+      native: false
+    },
+    {
+      column: 10,
+      file: 'node:internal/modules/cjs/loader',
+      function: 'Module._extensions..js',
+      line: 1310,
+      method: '.js',
+      native: false
+    }
+  ],
+  label: 'API Logs',
+  timestamp: 'May-31-2025 16:56:17'
+}
+{
+  error: C:\Viral\Value At Void\assignment - backend\controllers\JobController.js:80
+      let response = Util.getErrorResponse(, 'Job State Fetched Successfully')
+                                           ^
+  
+  SyntaxError: Unexpected token ','
+      at internalCompileFunction (node:internal/vm:73:18)
+      at wrapSafe (node:internal/modules/cjs/loader:1178:20)
+      at Module._compile (node:internal/modules/cjs/loader:1220:27)
+      at Module._extensions..js (node:internal/modules/cjs/loader:1310:10)
+      at Module.load (node:internal/modules/cjs/loader:1119:32)
+      at Module._load (node:internal/modules/cjs/loader:960:12)
+      at Module.require (node:internal/modules/cjs/loader:1143:19)
+      at require (node:internal/modules/cjs/helpers:119:18)
+      at Object.<anonymous> (C:\Viral\Value At Void\assignment - backend\routes\JobRoutes.js:2:23)
+      at Module._compile (node:internal/modules/cjs/loader:1256:14),
+  level: 'error',
+  message: "uncaughtException: Unexpected token ','\n" +
+    'C:\\Viral\\Value At Void\\assignment - backend\\controllers\\JobController.js:80\n' +
+    "    let response = Util.getErrorResponse(, 'Job State Fetched Successfully')\n" +
+    '                                         ^\n' +
+    '\n' +
+    "SyntaxError: Unexpected token ','\n" +
+    '    at internalCompileFunction (node:internal/vm:73:18)\n' +
+    '    at wrapSafe (node:internal/modules/cjs/loader:1178:20)\n' +
+    '    at Module._compile (node:internal/modules/cjs/loader:1220:27)\n' +
+    '    at Module._extensions..js (node:internal/modules/cjs/loader:1310:10)\n' +
+    '    at Module.load (node:internal/modules/cjs/loader:1119:32)\n' +
+    '    at Module._load (node:internal/modules/cjs/loader:960:12)\n' +
+    '    at Module.require (node:internal/modules/cjs/loader:1143:19)\n' +
+    '    at require (node:internal/modules/cjs/helpers:119:18)\n' +
+    '    at Object.<anonymous> (C:\\Viral\\Value At Void\\assignment - backend\\routes\\JobRoutes.js:2:23)\n' +
+    '    at Module._compile (node:internal/modules/cjs/loader:1256:14)',
+  stack: 'C:\\Viral\\Value At Void\\assignment - backend\\controllers\\JobController.js:80\n' +
+    "    let response = Util.getErrorResponse(, 'Job State Fetched Successfully')\n" +
+    '                                         ^\n' +
+    '\n' +
+    "SyntaxError: Unexpected token ','\n" +
+    '    at internalCompileFunction (node:internal/vm:73:18)\n' +
+    '    at wrapSafe (node:internal/modules/cjs/loader:1178:20)\n' +
+    '    at Module._compile (node:internal/modules/cjs/loader:1220:27)\n' +
+    '    at Module._extensions..js (node:internal/modules/cjs/loader:1310:10)\n' +
+    '    at Module.load (node:internal/modules/cjs/loader:1119:32)\n' +
+    '    at Module._load (node:internal/modules/cjs/loader:960:12)\n' +
+    '    at Module.require (node:internal/modules/cjs/loader:1143:19)\n' +
+    '    at require (node:internal/modules/cjs/helpers:119:18)\n' +
+    '    at Object.<anonymous> (C:\\Viral\\Value At Void\\assignment - backend\\routes\\JobRoutes.js:2:23)\n' +
+    '    at Module._compile (node:internal/modules/cjs/loader:1256:14)',
+  exception: true,
+  date: 'Sat May 31 2025 16:57:44 GMT+0530 (India Standard Time)',
+  process: {
+    pid: 45296,
+    uid: null,
+    gid: null,
+    cwd: 'C:\\Viral\\Value At Void\\assignment - backend',
+    execPath: 'C:\\Program Files\\nodejs\\node.exe',
+    version: 'v18.18.0',
+    argv: [
+      'C:\\Program Files\\nodejs\\node.exe',
+      'C:\\Viral\\Value At Void\\assignment - backend\\server.js'
+    ],
+    memoryUsage: {
+      rss: 81448960,
+      heapTotal: 37535744,
+      heapUsed: 26984672,
+      external: 19948990,
+      arrayBuffers: 19009238
+    }
+  },
+  os: { loadavg: [ 0, 0, 0 ], uptime: 8983358.828 },
+  trace: [
+    {
+      column: 18,
+      file: 'node:internal/vm',
+      function: 'internalCompileFunction',
+      line: 73,
+      method: null,
+      native: false
+    },
+    {
+      column: 20,
+      file: 'node:internal/modules/cjs/loader',
+      function: 'wrapSafe',
+      line: 1178,
+      method: null,
+      native: false
+    },
+    {
+      column: 27,
+      file: 'node:internal/modules/cjs/loader',
+      function: 'Module._compile',
+      line: 1220,
+      method: '_compile',
+      native: false
+    },
+    {
+      column: 10,
+      file: 'node:internal/modules/cjs/loader',
+      function: 'Module._extensions..js',
+      line: 1310,
+      method: '.js',
+      native: false
+    },
+    {
+      column: 32,
+      file: 'node:internal/modules/cjs/loader',
+      function: 'Module.load',
+      line: 1119,
+      method: 'load',
+      native: false
+    },
+    {
+      column: 12,
+      file: 'node:internal/modules/cjs/loader',
+      function: 'Module._load',
+      line: 960,
+      method: '_load',
+      native: false
+    },
+    {
+      column: 19,
+      file: 'node:internal/modules/cjs/loader',
+      function: 'Module.require',
+      line: 1143,
+      method: 'require',
+      native: false
+    },
+    {
+      column: 18,
+      file: 'node:internal/modules/cjs/helpers',
+      function: 'require',
+      line: 119,
+      method: null,
+      native: false
+    },
+    {
+      column: 23,
+      file: 'C:\\Viral\\Value At Void\\assignment - backend\\routes\\JobRoutes.js',
+      function: null,
+      line: 2,
+      method: null,
+      native: false
+    },
+    {
+      column: 14,
+      file: 'node:internal/modules/cjs/loader',
+      function: 'Module._compile',
+      line: 1256,
+      method: '_compile',
+      native: false
+    }
+  ],
+  label: 'API Logs',
+  timestamp: 'May-31-2025 16:57:44'
+}
+{
+  error: TypeError: argument handler is required
+      at Route.<computed> [as post] (C:\Viral\Value At Void\assignment - backend\node_modules\router\lib\route.js:221:13)
+      at Router.<computed> [as post] (C:\Viral\Value At Void\assignment - backend\node_modules\router\index.js:448:19)
+      at Object.<anonymous> (C:\Viral\Value At Void\assignment - backend\routes\JobRoutes.js:13:8)
+      at Module._compile (node:internal/modules/cjs/loader:1256:14)
+      at Module._extensions..js (node:internal/modules/cjs/loader:1310:10)
+      at Module.load (node:internal/modules/cjs/loader:1119:32)
+      at Module._load (node:internal/modules/cjs/loader:960:12)
+      at Module.require (node:internal/modules/cjs/loader:1143:19)
+      at require (node:internal/modules/cjs/helpers:119:18)
+      at Object.<anonymous> (C:\Viral\Value At Void\assignment - backend\server.js:11:20),
+  level: 'error',
+  message: 'uncaughtException: argument handler is required\n' +
+    'TypeError: argument handler is required\n' +
+    '    at Route.<computed> [as post] (C:\\Viral\\Value At Void\\assignment - backend\\node_modules\\router\\lib\\route.js:221:13)\n' +
+    '    at Router.<computed> [as post] (C:\\Viral\\Value At Void\\assignment - backend\\node_modules\\router\\index.js:448:19)\n' +
+    '    at Object.<anonymous> (C:\\Viral\\Value At Void\\assignment - backend\\routes\\JobRoutes.js:13:8)\n' +
+    '    at Module._compile (node:internal/modules/cjs/loader:1256:14)\n' +
+    '    at Module._extensions..js (node:internal/modules/cjs/loader:1310:10)\n' +
+    '    at Module.load (node:internal/modules/cjs/loader:1119:32)\n' +
+    '    at Module._load (node:internal/modules/cjs/loader:960:12)\n' +
+    '    at Module.require (node:internal/modules/cjs/loader:1143:19)\n' +
+    '    at require (node:internal/modules/cjs/helpers:119:18)\n' +
+    '    at Object.<anonymous> (C:\\Viral\\Value At Void\\assignment - backend\\server.js:11:20)',
+  stack: 'TypeError: argument handler is required\n' +
+    '    at Route.<computed> [as post] (C:\\Viral\\Value At Void\\assignment - backend\\node_modules\\router\\lib\\route.js:221:13)\n' +
+    '    at Router.<computed> [as post] (C:\\Viral\\Value At Void\\assignment - backend\\node_modules\\router\\index.js:448:19)\n' +
+    '    at Object.<anonymous> (C:\\Viral\\Value At Void\\assignment - backend\\routes\\JobRoutes.js:13:8)\n' +
+    '    at Module._compile (node:internal/modules/cjs/loader:1256:14)\n' +
+    '    at Module._extensions..js (node:internal/modules/cjs/loader:1310:10)\n' +
+    '    at Module.load (node:internal/modules/cjs/loader:1119:32)\n' +
+    '    at Module._load (node:internal/modules/cjs/loader:960:12)\n' +
+    '    at Module.require (node:internal/modules/cjs/loader:1143:19)\n' +
+    '    at require (node:internal/modules/cjs/helpers:119:18)\n' +
+    '    at Object.<anonymous> (C:\\Viral\\Value At Void\\assignment - backend\\server.js:11:20)',
+  exception: true,
+  date: 'Sat May 31 2025 17:08:42 GMT+0530 (India Standard Time)',
+  process: {
+    pid: 39200,
+    uid: null,
+    gid: null,
+    cwd: 'C:\\Viral\\Value At Void\\assignment - backend',
+    execPath: 'C:\\Program Files\\nodejs\\node.exe',
+    version: 'v18.18.0',
+    argv: [
+      'C:\\Program Files\\nodejs\\node.exe',
+      'C:\\Viral\\Value At Void\\assignment - backend\\server.js'
+    ],
+    memoryUsage: {
+      rss: 81944576,
+      heapTotal: 40443904,
+      heapUsed: 30848664,
+      external: 19670566,
+      arrayBuffers: 18730814
+    }
+  },
+  os: { loadavg: [ 0, 0, 0 ], uptime: 8984017.437 },
+  trace: [
+    {
+      column: 13,
+      file: 'C:\\Viral\\Value At Void\\assignment - backend\\node_modules\\router\\lib\\route.js',
+      function: 'Route.<computed> [as post]',
+      line: 221,
+      method: '<computed> [as post]',
+      native: false
+    },
+    {
+      column: 19,
+      file: 'C:\\Viral\\Value At Void\\assignment - backend\\node_modules\\router\\index.js',
+      function: 'Router.<computed> [as post]',
+      line: 448,
+      method: '<computed> [as post]',
+      native: false
+    },
+    {
+      column: 8,
+      file: 'C:\\Viral\\Value At Void\\assignment - backend\\routes\\JobRoutes.js',
+      function: null,
+      line: 13,
+      method: null,
+      native: false
+    },
+    {
+      column: 14,
+      file: 'node:internal/modules/cjs/loader',
+      function: 'Module._compile',
+      line: 1256,
+      method: '_compile',
+      native: false
+    },
+    {
+      column: 10,
+      file: 'node:internal/modules/cjs/loader',
+      function: 'Module._extensions..js',
+      line: 1310,
+      method: '.js',
+      native: false
+    },
+    {
+      column: 32,
+      file: 'node:internal/modules/cjs/loader',
+      function: 'Module.load',
+      line: 1119,
+      method: 'load',
+      native: false
+    },
+    {
+      column: 12,
+      file: 'node:internal/modules/cjs/loader',
+      function: 'Module._load',
+      line: 960,
+      method: '_load',
+      native: false
+    },
+    {
+      column: 19,
+      file: 'node:internal/modules/cjs/loader',
+      function: 'Module.require',
+      line: 1143,
+      method: 'require',
+      native: false
+    },
+    {
+      column: 18,
+      file: 'node:internal/modules/cjs/helpers',
+      function: 'require',
+      line: 119,
+      method: null,
+      native: false
+    },
+    {
+      column: 20,
+      file: 'C:\\Viral\\Value At Void\\assignment - backend\\server.js',
+      function: null,
+      line: 11,
+      method: null,
+      native: false
+    }
+  ],
+  label: 'API Logs',
+  timestamp: 'May-31-2025 17:08:42'
+}
+{
+  error: TypeError: argument handler is required
+      at Route.<computed> [as post] (C:\Viral\Value At Void\assignment - backend\node_modules\router\lib\route.js:221:13)
+      at Router.<computed> [as post] (C:\Viral\Value At Void\assignment - backend\node_modules\router\index.js:448:19)
+      at Object.<anonymous> (C:\Viral\Value At Void\assignment - backend\routes\JobRoutes.js:13:8)
+      at Module._compile (node:internal/modules/cjs/loader:1256:14)
+      at Module._extensions..js (node:internal/modules/cjs/loader:1310:10)
+      at Module.load (node:internal/modules/cjs/loader:1119:32)
+      at Module._load (node:internal/modules/cjs/loader:960:12)
+      at Module.require (node:internal/modules/cjs/loader:1143:19)
+      at require (node:internal/modules/cjs/helpers:119:18)
+      at Object.<anonymous> (C:\Viral\Value At Void\assignment - backend\server.js:11:20),
+  level: 'error',
+  message: 'uncaughtException: argument handler is required\n' +
+    'TypeError: argument handler is required\n' +
+    '    at Route.<computed> [as post] (C:\\Viral\\Value At Void\\assignment - backend\\node_modules\\router\\lib\\route.js:221:13)\n' +
+    '    at Router.<computed> [as post] (C:\\Viral\\Value At Void\\assignment - backend\\node_modules\\router\\index.js:448:19)\n' +
+    '    at Object.<anonymous> (C:\\Viral\\Value At Void\\assignment - backend\\routes\\JobRoutes.js:13:8)\n' +
+    '    at Module._compile (node:internal/modules/cjs/loader:1256:14)\n' +
+    '    at Module._extensions..js (node:internal/modules/cjs/loader:1310:10)\n' +
+    '    at Module.load (node:internal/modules/cjs/loader:1119:32)\n' +
+    '    at Module._load (node:internal/modules/cjs/loader:960:12)\n' +
+    '    at Module.require (node:internal/modules/cjs/loader:1143:19)\n' +
+    '    at require (node:internal/modules/cjs/helpers:119:18)\n' +
+    '    at Object.<anonymous> (C:\\Viral\\Value At Void\\assignment - backend\\server.js:11:20)',
+  stack: 'TypeError: argument handler is required\n' +
+    '    at Route.<computed> [as post] (C:\\Viral\\Value At Void\\assignment - backend\\node_modules\\router\\lib\\route.js:221:13)\n' +
+    '    at Router.<computed> [as post] (C:\\Viral\\Value At Void\\assignment - backend\\node_modules\\router\\index.js:448:19)\n' +
+    '    at Object.<anonymous> (C:\\Viral\\Value At Void\\assignment - backend\\routes\\JobRoutes.js:13:8)\n' +
+    '    at Module._compile (node:internal/modules/cjs/loader:1256:14)\n' +
+    '    at Module._extensions..js (node:internal/modules/cjs/loader:1310:10)\n' +
+    '    at Module.load (node:internal/modules/cjs/loader:1119:32)\n' +
+    '    at Module._load (node:internal/modules/cjs/loader:960:12)\n' +
+    '    at Module.require (node:internal/modules/cjs/loader:1143:19)\n' +
+    '    at require (node:internal/modules/cjs/helpers:119:18)\n' +
+    '    at Object.<anonymous> (C:\\Viral\\Value At Void\\assignment - backend\\server.js:11:20)',
+  exception: true,
+  date: 'Sat May 31 2025 17:08:44 GMT+0530 (India Standard Time)',
+  process: {
+    pid: 36988,
+    uid: null,
+    gid: null,
+    cwd: 'C:\\Viral\\Value At Void\\assignment - backend',
+    execPath: 'C:\\Program Files\\nodejs\\node.exe',
+    version: 'v18.18.0',
+    argv: [
+      'C:\\Program Files\\nodejs\\node.exe',
+      'C:\\Viral\\Value At Void\\assignment - backend\\server.js'
+    ],
+    memoryUsage: {
+      rss: 81477632,
+      heapTotal: 57221120,
+      heapUsed: 30810312,
+      external: 19633426,
+      arrayBuffers: 18693674
+    }
+  },
+  os: { loadavg: [ 0, 0, 0 ], uptime: 8984018.687 },
+  trace: [
+    {
+      column: 13,
+      file: 'C:\\Viral\\Value At Void\\assignment - backend\\node_modules\\router\\lib\\route.js',
+      function: 'Route.<computed> [as post]',
+      line: 221,
+      method: '<computed> [as post]',
+      native: false
+    },
+    {
+      column: 19,
+      file: 'C:\\Viral\\Value At Void\\assignment - backend\\node_modules\\router\\index.js',
+      function: 'Router.<computed> [as post]',
+      line: 448,
+      method: '<computed> [as post]',
+      native: false
+    },
+    {
+      column: 8,
+      file: 'C:\\Viral\\Value At Void\\assignment - backend\\routes\\JobRoutes.js',
+      function: null,
+      line: 13,
+      method: null,
+      native: false
+    },
+    {
+      column: 14,
+      file: 'node:internal/modules/cjs/loader',
+      function: 'Module._compile',
+      line: 1256,
+      method: '_compile',
+      native: false
+    },
+    {
+      column: 10,
+      file: 'node:internal/modules/cjs/loader',
+      function: 'Module._extensions..js',
+      line: 1310,
+      method: '.js',
+      native: false
+    },
+    {
+      column: 32,
+      file: 'node:internal/modules/cjs/loader',
+      function: 'Module.load',
+      line: 1119,
+      method: 'load',
+      native: false
+    },
+    {
+      column: 12,
+      file: 'node:internal/modules/cjs/loader',
+      function: 'Module._load',
+      line: 960,
+      method: '_load',
+      native: false
+    },
+    {
+      column: 19,
+      file: 'node:internal/modules/cjs/loader',
+      function: 'Module.require',
+      line: 1143,
+      method: 'require',
+      native: false
+    },
+    {
+      column: 18,
+      file: 'node:internal/modules/cjs/helpers',
+      function: 'require',
+      line: 119,
+      method: null,
+      native: false
+    },
+    {
+      column: 20,
+      file: 'C:\\Viral\\Value At Void\\assignment - backend\\server.js',
+      function: null,
+      line: 11,
+      method: null,
+      native: false
+    }
+  ],
+  label: 'API Logs',
+  timestamp: 'May-31-2025 17:08:44'
+}
