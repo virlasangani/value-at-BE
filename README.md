@@ -53,4 +53,17 @@ create a **.env** file inside the root folder and add below variables.
    ```bash
    npm run dev
 
+
+## TO Create a Initial Jobs use Below reference payload 
+
+{
+  "title": "Senior Backend Developer",
+  "description": "We’re looking for a Senior Backend Developer (Part Time basis)...",
+  "profile": "frontend",
+  "experience": "3 - 5 Years",
+  "employmentType": "Part-time",
+  "salary": "1000 - 1500 INR/hr"
+}
+
+
 **Note**: Not deployed on Varcel due to the MongoDB DB Atlas server not being available for my account.
